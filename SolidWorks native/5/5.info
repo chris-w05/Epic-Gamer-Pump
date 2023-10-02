@@ -1,0 +1,52 @@
+Model: Main assembly.SLDASM
+Project name: Project(2)
+Config name: Default
+Project path: X:\Water pump project\Epic Gamer Pump\SolidWorks native\5\5.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 8365
+    Fluid cells: 8365
+    Solid cells: 5174
+    Fluid cells containing solids: 7025
+
+
+Geometry preparation finished: 12:09:49
+Geometry preparation time: 00:00:04
+Solver CPU time: 00:00:49
+Iterations: 70
+Travels: 1.72417
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 12:10:18
+CPU time per last iteration: 00:00:01
+CPU time left: 00:00:00
+Iterations per 1 travel: 41
+
+Goals
+    Name | Unit (SI) | Value           | Progress  | Critetia        | Delta           | Use in convergence
+
+Project details
+    Default fluids: Water
+    Analysis type: External
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2023  x64 / 6002 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2023 SP3.0
+    Computer name: lab5-28
+    User name: u1467634
+    Operating system: Windows 10 (Version 10.0.19045)
+    Processors: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+    Number of cores: 8
+    Memory: 21621 MB / 32713 MB
+

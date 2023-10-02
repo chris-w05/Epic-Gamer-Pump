@@ -1,0 +1,29 @@
+﻿absolute path:X:\Water pump project\Epic Gamer Pump\SolidWorks native\3
+init:1
+run_capture:1
+run_solver:1
+new_calc:1
+close_monitor:0
+run_convert:0
+isOK:1
+ForceNewCalc:1
+run_capture_prestate:1
+StartFldName:X:\Water pump project\Epic Gamer Pump\SolidWorks native\3\3.fld
+NewCalcStartCptName:
+TransTimeMoments:
+TransFldNames:
+CurSelTranFld:0
+Trans:0
+UsePrevRes:0
+ForcetoRunCPT:1
+ComputerName:
+port:50740
+ProcessResults:1
+LoadLastResult:1
+ProcessorsToUse:0
+LoadBaseFLDFile:0
+BaseFLDFile:
+id:{77CB8623-2CEC-44F8-A46B-AF84318BC417}
+calculation_state:5
+ForceContinue:0
+SolverProcessId:9332

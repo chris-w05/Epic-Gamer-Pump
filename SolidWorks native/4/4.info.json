@@ -1,0 +1,55 @@
+{
+    "version": 0,
+    "model_name": "Only impeller fluid sim.SLDASM",
+    "project_name": "Project(2)",
+    "config_name": "Default",
+    "project_path": "X:\\Water pump project\\Epic Gamer Pump\\SolidWorks native\\4\\4.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 3098,
+        "cells_fluid": 3098,
+        "cells_solid": 48990,
+        "cells_fluid_containing_solid": 0
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "21:39:08-0600",
+        "prepare_geometry_total_time": 3,
+        "cpu_time_solver_total": 19,
+        "iteration": 10,
+        "travel": 0.053553036797522525,
+        "phys_time": 1.0,
+        "time_step": 0.048264184162631674,
+        "last_iteration_finished": "21:39:10-0600",
+        "cpu_time_per_last_iter": 0,
+        "cpu_time_left": 0,
+        "iterations_per_travel": 186
+    },
+    "goals": [],
+    "settings": {
+        "default_fluids": [
+            "Water"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": true,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2023  x64 / 6002 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2023 SP3.0",
+        "computer_name": "ENGMAN02-4",
+        "user_name": "u1467634",
+        "os": "Windows 10 (Version 10.0.19045)",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz",
+        "number_of_cores": 4,
+        "memory_avail": 1125,
+        "memory_total": 8191
+    }
+}

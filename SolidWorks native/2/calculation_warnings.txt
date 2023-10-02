@@ -1,0 +1,7 @@
+2023-Oct-01 21:12:59
+Computer name:	ENGMAN02-4
+Number of cores used in calculation:	4
+Configuration name:	Default
+Project name:	Project(1)
+
+Warnings on last iteration: 

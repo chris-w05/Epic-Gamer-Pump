@@ -1,0 +1,1910 @@
+Log started at 01.10.2023	21:39:04
+Number of used processors (NPROC): 4.
+Number of mesh partitions (NPART): 4.
+Computer name:	ENGMAN02-4
+Operating system:	Windows 10 (Version 10.0.19045)
+Commandline:	"C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS Flow Simulation\BINCFW\efdsolver.exe" /config:"X:\Water pump project\Epic Gamer Pump\SolidWorks native\4\4.xmlconfig" /guid:9c27a858-8fb7-499c-9080-1f156b8dcb01 /processors:max /m /s /prjnamelm:"Flow Simulation 2023" /prjnamehabout:"Flow Simulation 2023" /companyname:"COSMOS Applications" /prjaliasid:1009 /lang:English /port:65065
+Total Physical Memory = 8.00 Gb, Available Physical Memory = 1.10 Gb
+-----------------------------------------------------------------------
+Memory Working Set Current = 34.34 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 36.50 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 8
+-----------------------------------------------------------------------
+CPU:	GenuineIntel, Stepping ID = 2, Model = 15, Family = 6, Extended model = 3, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+Package 0 [ ProcessorGroup 0 [ 0 1 ] ]
+Package 1 [ ProcessorGroup 0 [ 2 3 ] ]
+NUMA Node 0: Available Memory = 1.10 Gb. ProcessorGroup 0 [ 0 1 2 3 ]
+std::thread::hardware_concurrency = 4
+No NUMA support
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4.
+
+SOLIDWORKS 2023 SP3.0
+X:\Water pump project\Epic Gamer Pump\SolidWorks native\4\4.fld
+Configuration name:	Default
+Project name:	Project(2)
+/*******************************************/
+/*         Project Summary                 */
+/*******************************************/
+Analysis type:						CFD
+Problem type:						external
+Result resolution:					3
+Minimum gap size:					0.0175042
+Minimum wall thickness:				0.0175042
+Manual refinement:					Off
+Fluid substances count				1
+
+		Advanced capabilities
+Heat transfer						Off
+Transient						On
+Gravitation						Off
+Laminar flow						Off
+Compressibility					Off
+Default wall condition				adiabatic wall
+Roughness:						0
+
+************************************************
+Flow Simulation 2023  x64 / 6002 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2 
+BRANCH: git--efd_2205.6002_05.03.2023
+
+
+
+TRANSIENT
+
+
+LAM-BREMHORST K-EPSILON TURBULENCE MODEL
+EXTERNAL=1  CHT=0  FROZEN=0  RADIATION=0  HVAC_COMFORT_PARAMETERS=0
+Solver mode: normal
+Memory Status before reading BCF:
+-----------------------------------------------------------------------
+Memory Working Set Current = 35.77 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 36.15 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+BCF CHECKSUM DATA (Mesh 0):
+
+WARNING! 2054 w-face(s) without RefFacesData.
+BRICK |Level1| Sum:               0
+FACE_A Area Sum:   G.Fluid        0.1758236504702580
+FACE_A Area Sum:   G.Solid        79.1925291178550594
+FACE_W Area Sum:                  4.4284786321799672
+FACE_W Nb   Sum:                  39960
+FACE_W min curvatures sum:        0.00000000
+FACE_W max curvatures sum:        0.00000000
+AV Max Disbalance(Const) :        5.87333e-17 (cid=25296, t={76, 92, 62}, avid=26845, pid=-1)
+AV Max Disbalance(Linear):        2.61969e-15 (cid=27004, t={51, 88, 65}, avid=1650, pid=1612)
+-----------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------
+MESHER TOPOLOGY DATA:
+
+BRICKS: Total                 52088
+BRICKS: Fluid                 3098
+BRICKS: Fluid Partial         0
+BRICKS: Type 1                3022
+BRICKS: Max AV number         1
+
+AV:     G.Total               52088
+AV:     G.Fluid               3098
+AV:     G.Solid               48990
+
+AV:     G.Fluid Thin Profile    0.00 % (0)
+AV:     G.Solid Thin Profile    0.00 % (0)
+
+AV:     G.Fluid Thin For Mega   0.00 % (0)
+AV:     G.Solid Thin For Mega   0.00 % (0)
+
+AV:     G.Fluid Non-Convex      0.00 % (0)
+AV:     G.Solid Non-Convex      0.00 % (0)
+
+AV:     G.Fluid Non-Ess-Convex      0.00 % (0)
+AV:     G.Solid Non-Ess-Convex      0.00 % (0)
+
+FACE_A: G.Fluid          (af) 8267 (partially opened 0)
+FACE_A: G.Solid          (as) 143091 (partially opened 0)
+
+FACE_B: G.Total          (b)  0
+
+FACE_W: G.Total                 9990        Brick/Bound
+FACE_W: G.Fluid/Solid    (fs_g) 2054        2054        
+FACE_W: G.Fluid/Fluid    (ff_g) 0           0           
+FACE_W: G.Solid/Solid    (ss_g) 0           0           
+FACE_W: G.Fluid/Void     (fv_g) 0           0           
+FACE_W: G.Fluid/External (fe_g) 0
+FACE_W: G.Solid/External (se_g) 7936
+
+AV/CV max fa count (on brick side):4
+AV/CV max fw count:                4
+AV/CV max fb count:                0
+AV/CV max fw poly count:           7
+
+MEMORY: Total                   15.271 MB
+MEMORY: Per Brick               0.300 KB
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+Memory Working Set Current = 64.46 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 65.33 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+-----------------------------------------------------------------------
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays):
+MESH (0):
+	Fluid Subdom Constructor: 1 subdom(s).
+	Solid Subdom Constructor: 1 subdom(s).
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 Fluid av=3098 cv=3098 fa=8267 fb=0 fw=2054 V=2.621250e-04
+	Cache data...OK
+	GEOMSUBDOM (1): gi=2 Solid av=48990 cv=48990 fa=143091 fb=0 fw=9990 V=6.191011e-01
+	Cache data...OK
+	Setting nb of w-faces...OK (0.001 s).
+	Correcting nb of w-faces...
+	Time(correct_fw_nb)=0.002 s
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=0.1758236504702579 fb_s=0.0000000000000000 fw_s=0.0558875191422640 fw_nb=8216
+	              :d_const(-1)=0 d_linear(1644)=2.61969e-15
+	GEOMSUBDOM (1):fa_s=79.1925291178550452 fb_s=0.0000000000000000 fw_s=4.4284786321799672 fw_nb=39960
+	              :d_const(15312)=5.87258e-17 d_linear(26380)=2.61969e-15
+MESH (0) checking: OK.
+Time (MDS): 	0.117 s
+----------------------------------------------------------
+-----------------------------------------------------------------------
+Memory Working Set Current = 81.79 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 81.86 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+-----------------------------------------------------------------------
+Memory Status after reading BCF:
+-----------------------------------------------------------------------
+Memory Working Set Current = 81.90 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 81.86 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+-----------------------------------------------------------------------
+Total read CPT took 0.80 sec.
+Save msh-format to file...OK (0.195 s).
+MMP (msh): locals=1, allc_sz=6.49 MB, used_sz=6.45 MB, blks-min-max=25/25
+MMP (brx): locals=0, allc_sz=0.00 MB, used_sz=0.00 MB, blks-min-max=0/0
+MMP (bcf): locals=4, allc_sz=22.42 MB, used_sz=21.77 MB, blks-min-max=18/28
+MMP (xsl): locals=0, allc_sz=0.00 MB, used_sz=0.00 MB, blks-min-max=0/0
+MESH::Bricks: Total=52088
+
+-----------------------------------------------------------------------
+Mesh dimensions:
+				I[0 ]=32
+				I[1 ]=46
+				I[2 ]=32
+Solver refinement level	I[47]=0
+
+Comp. domain size:
+				a[0  ]=-0.449876
+				a[1  ]=0.449876
+				a[2  ]=-0.373782
+				a[3  ]=0.391287
+				a[4  ]=-0.449876
+				a[5  ]=0.449876
+Wall thickness		a[231]=0
+Gap size			a[232]=1
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+Preparing for calculations started at	1.10.2023	21:39:5
+CD X0= -0.449875555318, X1= 0.449875555318, Y0= -0.373782460065, Y1= 0.391286612456, Z0= -0.449875555318, Z1= 0.449875555318
+Update time step in solids: TRANSIENT IN SOLIDS
+FLUID SUBDOMAIN   0 LC =0 LAMTURB=1 NONNEWTON=0  STEAM=0  CAVITATION=0 IT=6 NT=2 NC=1 U_DIM_EXT=14
+
+===ThermodynamicsHolder:===
+Subdom 0 Incompressible liquid thermodynamics
+	substance 0 type=fwLiquid, guid=6D4EB34F944911D4B47100A024552746, name=Water
+===ThermodynamicsHolder:===
+sd=   0: dependence of enthalpy on pressure is switched ON 
+114 parameter(s) in list of scalar parameters
+7 parameter(s) in list of vector parameters
+-----------------------------------------------------------------------
+Loading mesh settings (global/local/SAR)...
+Setting regions (52088 / 52088)...OK (0.001 s)
+-----------------------------------------------------------------------
+
+CollectIndata: Initialize stored in U[] parameters (pressure,momentum,dens,..)... OK(CPU=0.003 s)
+
+THERMODYNAMICS: Initialize stored in U[] parameters (T,Cp,Pr,..)
+                and switch to Y-shifted Total Enthalpy:
+OK: U[] is initialized.
+
+Collect Virtual Surface Sources...OK
+Collect Surface Goals...
+Received 0 wall face(s) and 0 virtual face(s)...
+ OK
+Total CPU time 1 s
+Collect Unused surface area...OK
+MWS estimation...
+Subdomain number =   0 V_indata_max =          0, v_max_from_mf_on_BC =           0, v_max_from_pressure_opening =           0, MWS =       0.25
+
+There is 1 subdomain in fluid:
+subdomain   0: INCOMPRESSIBLE,   MONOTONIC T,    3098 CVs, LAMINAR-TURBULENT TRANSITION
+NPROC = 4, nested_parallelization = 0
+NPART = 4
+
+/-----------------------------------------------------------/
+SOLVER TOPOLOGY DATA:
+
+BRICKS: |level1| sum         8796
+
+CV:     Total               3098
+CV:     Fluid               3098
+CV:     Solid               0
+
+Fluid:
+CV Max Disbalance(Linear):                2.61969e-15 (ncv=1644, nsd=0)
+CV:     G.Fluid Thin Profile    0.00 % (0)
+CV:     G.Solid Thin Profile    0.00 % (0)
+
+CV:     G.Fluid Non-Convex      0.00 % (0)
+CV:     G.Solid Non-Convex      0.00 % (0)
+
+FACE_A: Fluid          (af) 8267
+FACE_A: Max number placed on a brick-face in cv: 1
+FACE_A: Solid          (as) 143091
+
+FACE_W: Total               9990
+FACE_W: Fluid/Fluid    (ff) 0
+FACE_W: Max number placed in cv: 3
+/-----------------------------------------------------------/
+
+-----------------------------------------------------------------------
+SLIDING MESH: sliding...
+	Subdom ANGLE: nsd(0) angle=0.0000 pi (angle=0.0000000000000000, delta=0.0000 pi)
+SLIDING MESH: making fs-nb connectivity...
+SLIDING MESH: making fs-nb connectivity takes 0.000 s
+SLIDING MESH: sliding takes 0.000 s
+-----------------------------------------------------------------------
+  nsd=  0: min rho=997.562, var Kin E=6234.76
+Create solver core
+ MDS: Converting solver problem ...
+MDS: OK
+slv : Calculations at run start
+slv : Create sub-domains supervisors:
+slv : 	Fluid subdom 0(IMS) gsd_ind=0
+slv : 	1 fluid
+slv : Create sub-domains mesh connectivity supervisors:
+slv : Collect slices by phenomena...
+slv : 	fluid flow slices were created:	1
+slv : 	heat transfer slices were created:	1
+slv : 	electric current flow slices were created:	0
+slv : 	radiation slices were created:	0
+slv : Creating meshes proxies for multigrid...
+slv : Convert MESH[0] to multigrid mesh proxy...
+slv : 52088 bricks are accounted by implicit methods(100% of total)
+slv : max tree bricks count = 64
+alg : MG: create topological coarsening...
+alg : Mesh 0  OK
+slv : Building views for fluid flow...
+slv : 1 views are created
+slv : Building views for heat transfer...
+slv : 1 views are created
+slv : Building fluid flow views schemes...
+slv : View   0: Implicit scheme in fluid
+slv : Building heat transfer views schemes...
+slv : PrecalcAtStart views for fluid flow...
+=== Fluid sub-domain nsd=0 ========================
+Pre-calculations at run start, Implicit Scheme:
+fflow count=0
+Mass is predefined in this sub-domain
+BC re-definition: Real Wall to Ideal Wall: 0 w-faces
+
+MARK CVs, A-FACEs and W-FACEs WITH/NEAR GEOMETRICAL PECULIARITIES:
+
+  Thin slit and wedge cvs = 0 (0% of all cvs, 0% of partial cvs),
+  Wedge cvs = 4 (0.129116% of all cvs, 0.294551% of partial cvs),
+  (THRESHOLD_THIN = 0.01, THRESHOLD_ANGLE = 91.146).
+  CV_BAD_GEOM_FOR_DERIVATIVES: bad CV geometry for numerical calculation of derivatives detected in partial cvs = 482 (15.5584% of all cvs, 35.4934% of partial cvs),
+    (by  presence of degraded to CUp_1st a-faces = 0)
+    (by  curvature condition = 482),
+    (by  MEGA G-TYPE condition = 0),
+    (THRESHOLD_ANGLE_BAD_DERIVATIVES = 47).
+  CV_FLUID_IN_SMALL_INTERNAL_ANGLE: fluid in small internal angle detected in 4 CVs (0.129116%).
+  A-faces placed opposite External boundary with Symmetry BC: N_face_ns=0 (0%)
+frw count=2054
+(nsd = 0) Nfa = 8267, W2P A-face approximations: 0 stored,
+  basis quality levels not available,
+  derivative traits = {  },
+  value traits = {  }.
+(nsd = 0) Ncv = 3098, W2P CV approximations: 0 stored,
+  basis quality levels not available,
+  gradient[X] traits = {  },
+  gradient[Y] traits = {  },
+  gradient[Z] traits = {  }.
+mgl = 31 size = 3098
+mgl = 30 size =  548
+
+mgl = 31 size = 3098
+mgl = 30 size =  548
+
+mgl = 31 size = 3098
+mgl = 30 size =  548
+
+CreateGrOperatorsPortraits: CVs with extended (3D) portrait / total CVs = 1358 / 3098 (43.835%).
+mgl = 31 size = 3098
+mgl = 30 size =  548
+
+slv : PrecalcAtStart views for heat transfer...
+Creating view scheme...
+	Alg view 0 aggregates:
+mgl = 31 size = 3098
+mgl = 30 size =  548
+
+1 heat transfer algebraic views are created
+slv : PrecalcAtStart views for electric current flow...
+slv : PrecalcAtStart views for radiation...
+Calculate gap size: 
+	Min gap size       4.288340e-03 (id=34)
+	Max gap size       1.429293e-01 (id=1165)
+	Enlarged by r_d_cv 1
+GapSize time = 0.001205 s
+slv : Finite volume method GLOBAL MESH METRICS:
+slv : eps_const_function  [cv] = MAX_{i}{ SUM( S[f] * n[f][i] ) / SUM( |S[f] * n[f][i]| ) },
+slv : eps_linear_function [cv] = | MAX_{i}{ SUM( S[f] * n[f][i] * crd[f][i] ) } - MIN_{i}{ SUM( S[f] * n[f][i] * crd[f][i] ) } | / V[cv],
+slv : eps_cv_volume       [cv] = | SUM_{i}{ SUM( S[f] * n[f][i] * crd[f][i] ) } / 3 - V[cv] | / V[cv],
+slv :                            where "i" is axis (x, y, z) and "f" is cv's face (of any type),
+slv :                            crd[f] is coordinate of face "f" in cv-centered coordinate system, i.e. shifted by -crd[cv].
+slv : 	FLUID:
+slv : 		    1 GEOMSUBDOM(s):   Ncv =       3098, eps_const_function = 0.0e+00, eps_linear_function = 4.5e-15, eps_cv_volume = 1.8e-15.
+slv : 	SOLID:
+slv : 		    1 GEOMSUBDOM(s):   Ncv =      48990, eps_const_function = 1.4e-16, eps_linear_function = 7.6e-15, eps_cv_volume = 2.8e-15.
+
+SDS: Re-define MWS=max(mws_sd) over fluid-flow sub-domains in view:
+SDS: nsd=  0: mws(view value)=0.25                 
+slv : ------------ Start of Preliminary step at Calculation start ------------
+WALL_DISTANCE: 1 algebraic views were taken from pressure algebraic views 
++------+--------+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name  |alg view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|  WD  |       0|  2.225374e-11|  0.000000e+00|  2.225374e-27|  1.502110e-28|  4.037311e-13|    18|  72|1|n|30|  OK  |
+nsd=0, 	 VolEff3m = (Vcv > 0.25Vbr) ? Vcv : 0.25Vbr, 	 excluding CVs with Openings ( 0 ) 
+		   	 Ncv with fw_faces = 1358, 	 Ncv with VolEff3m > Vcv = 0 
+slv : Fluid subdom(new) 0
+slv : P static (new)                 : min(      0) = 101325               , max(      0) = 101325               
+slv : Density (new)                  : min(      0) = 997.56173932779      , max(      0) = 997.56173932779      
+slv : Velocity (new)                 : min(      0) = 0                    , max(      0) = 0                    
+slv : Turbulent k (new)              : min(      0) = 9.375e-08            , max(      0) = 9.375e-08            
+slv : Turbulent e (new)              : min(      0) = 2.6946211303326e-08  , max(      0) = 2.6946211303326e-08  
+slv : Temperature (new)              : min(      0) = 293.2                , max(      0) = 293.2                
+slv : Total enthalpy, Y-shifted (new): min(      0) = 9.8254531621933e-08  , max(      0) = 9.8254531621933e-08  
+slv : ------------ End of Preliminary step at Calculation start ------------
+Collecting Reference Parameters... OK
+
+----------------------------------------------------------
+BCF checking (solver)...
+----------------------------------------------------------
+
+Estimated cfld size=8.02 Mb
+Writing cfld file "X:\Water pump project\Epic Gamer Pump\SolidWorks native\4\cfl9152.tmp"...
+store res: FILE SAVED: cfl9152.tmp. Total save cfld took 0.09 sec.
+real cfld size=0.09 Mb
+CPT size=1.901 MB (1993321 bytes).
+CPT size=1.901 MB (1993321 bytes)
+CCFLDFileManager::MergeCFLDToCPT: FILE COPIED : "X:\Water pump project\Epic Gamer Pump\SolidWorks native\4\4.cpt" -> "X:\Water pump project\Epic Gamer Pump\SolidWorks native\4\4.cpt.lock"
+CCFLDFileManager::MergeCFLDToCPT: FILE MERGED : "X:\Water pump project\Epic Gamer Pump\SolidWorks native\4\cfl9152.tmp" -> "X:\Water pump project\Epic Gamer Pump\SolidWorks native\4\4.cpt.lock"
+CCFLDFileManager::MergeCFLDToCPT: FILE RENAMED: "X:\Water pump project\Epic Gamer Pump\SolidWorks native\4\4.cpt.lock" -> "X:\Water pump project\Epic Gamer Pump\SolidWorks native\4\4.cpt"
+CPT size=1.985 MB (2081670 bytes)
+CCFLDFileManager::MergeCFLDToCPT: FILE REMOVED: "X:\Water pump project\Epic Gamer Pump\SolidWorks native\4\cfl9152.tmp"
+OK
+Estimated fld size=3.97 Mb
+Writing fld file "X:\Water pump project\Epic Gamer Pump\SolidWorks native\4\r_000000.fld"...
+**************   CHeatPathCalculator report ******************
+Temperatures
+	0 (Vol 0.000262125; Tmin 293.2; Tav 293.2; Tmax 293.2)
+Total Energy Balance [W]
+	0
+**************   CHeatPathCalculator report end******************
+store res: FILE SAVED: r_000000.fld. Total save fld took 0.27 sec.
+real fld size=1.29 Mb
+CPT size=1.985 MB (2081670 bytes).
+OK
+Init simple interpolator... OK (0.029 sec)
+
+Preview parameters:
+	Density (Fluid)
+	Pressure
+	Temperature
+	Temperature (Fluid)
+	Velocity
+	Velocity (X)
+	Velocity (Y)
+	Velocity (Z)
+	Axial Velocity
+	Circumferential Velocity
+	Circumferential Velocity RRF
+	Peripheral Velocity
+	Radial Velocity
+	Velocity RRF
+	Velocity RRF (X)
+	Velocity RRF (Y)
+	Velocity RRF (Z)
+	Dynamic Pressure
+	Total Pressure
+	Dynamic Viscosity
+	Prandtl Number
+	Specific Heat (Cp)
+	Absolute Total Enthalpy
+	Total Enthalpy
+	Volumetric Heat Generation Rate
+	Turbulence Intensity
+	Turbulence Length
+	Turbulent Dissipation
+	Turbulent Energy
+	Turbulent Time
+	Turbulent Viscosity
+	Acoustic Power
+	Acoustic Power Level
+33 parameter(s) in preview list of parameters
+
+Calculation started at	1.10.2023	21:39:8
+Total CPU time 3 s
+//-------------------------Isotermic task-------------------//
+//-------------------------Fast mass flow--------------------//
+
+================== Tstep=0 ===================
+Boundary layer settings:
+	Separation tau    on
+	Enable 3D effects on
+BL MODEL         	0
+	Ignore compressibility  off
+	BL on porous body  off
+	Separ. tau corr factor 0
+	Separ. tau kappa 0.1
+	Separ. tau KV0 0.1
+	Max hn for engineering models 7
+	Laminar Temperature Profile Order 4
+	Max Film Thickness 0
+------------------------
+NumerCore CHT-start settings:
+	Min typical size					1
+	Zero vel ht factor				0.006
+	C_mju_turb_min                   0.01
+	Threshold value for K-E filter   0.000639985
+	C_mju                            0.09
+	C_eps1                           1.44
+	C_eps2                           1.92
+	Sigma_k                          1
+	Sigma_eps                        1.3
+	Sigma_c                          0.9
+	Approx mode                      2nd order
+-------------
+NumCoreFESSettings:
+	Maximum possible Mach	0
+	Turbulent Prandtl		0.9
+-------------
+slv : Implicit schemes in fluid settings:
+slv : INPR	: rel_resid=0.00790569
+slv : BACKGROUND	: rel_resid=0.00790569
+slv : DVGR	: rel_resid=0.00790569
+slv : MOMENTUM	: rel_resid=0.00790569
+slv : CHT	: rel_resid=0.00790569
+slv : Y_TD	: rel_resid=0.00790569
+slv : Y_TURB	: rel_resid=0.00790569
+slv : LMA	: rel_resid=0.00790569
+slv : UVGI	: rel_resid=0.00790569
+slv : NOx	: rel_resid=0.00790569
+slv : VOL_FRAC_IM_PHASE	: rel_resid=0.00790569
+slv : (null)	: rel_resid=0.00790569
+slv : Disable wall motion impact into H threshold=10
+slv : Relax par ring =0.05
+slv : Isothermal cavitation CF corrector = 1
+slv : Isothermal cavitation pseudo transient corrector = -1
+slv : Isothermal cavitation forced time step in cavitated regions = -1
+slv : force_free_surface_VOF = -1
+slv : SLV_SINGLE_P_WALL = 1
+slv : Weighted 2-Point 2nd order experimental features = 0
+slv : Stationary with Outer Iterations for Non-Newton:
+slv :     forced_global_timestep = -1.79769e+308
+slv :     timestep_accel_initial_coeff = 0.01
+slv :     timestep_accel_base = 1
+slv :     timestep_accel_max_coeff = 50
+slv :     timestep_accel_steps_divider = 1
+slv : ---------------------------------------
+------Solid settings---
+Approximation mode = 2'nd order && thin_profiles && weighted_2p_2nd (selectively)
+Solid temperature eps_abs scaling factor: 0.001
+number dofs per absorptive face: 9
+subgrid ratio: 0.500000
+------------------------------
+slv : Iterations settings:
+slv : Max number of outer iter = 1
+slv : Max number of Mass&Energy iter = 1
+slv : Conservation laws tolerance residuals:
+slv : 	MASS	0.005
+slv : 	MOMENTUM	0.005
+slv : 	ENERGY	0.005
+slv : 	SPECIES	0.005
+slv : 	TURBULENCE	0.005
+slv : 	MASS_AFTER_CALC_RHO	0.005
+slv : ---------------------------------------
+slv : Scheme blocks settings:
+slv : INPR	: stop_crit=residAbs_AND_residRel 
+slv : BACKGROUND	: stop_crit=residAbs_AND_residRel 
+slv : DVGR	: stop_crit=residAbs_AND_residRel 
+slv : MOMENTUM	: stop_crit=residAbs_AND_residRel 
+slv : CHT	: stop_crit=residAbs_AND_residRel 
+slv : Y_TD	: stop_crit=residAbs_AND_residRel 
+slv : Y_TURB	: stop_crit=residAbs_AND_residRel 
+slv : LMA	: stop_crit=residAbs_AND_residRel 
+slv : UVGI	: stop_crit=residAbs_AND_residRel 
+slv : NOx	: stop_crit=residAbs_AND_residRel 
+slv : VOL_FRAC_IM_PHASE	: stop_crit=residAbs_AND_residRel 
+slv : (null)	: stop_crit=residAbs_AND_residRel 
+slv : ---------------------------------------
+slv : Big local tau flattener = disabled
+Accuracy scale coeff =1
+slv : 
+slv : SCHEME IN FLUID: Implicit Operator-Splitting With Outer Iterations
+slv : Max Courant factor = 10
+  MWS[  0]=0.249989
+tau_viscous_averaged = 0.759395 
+dt(mass,momentum; nsd=  0): min dt/dtG(ncv=      0)=1.00 , max dt/dtG(ncv=      0)=1.0    , dtG=0.00244405
+-----------------------------------------------------------------------
+SLIDING MESH: sliding...
+	Subdom ANGLE: nsd(0) angle=0.0000 pi (angle=0.0000000000000000, delta=0.0000 pi)
+SLIDING MESH: making fs-nb connectivity...
+SLIDING MESH: making fs-nb connectivity takes 0.000 s
+SLIDING MESH: sliding takes 0.000 s
+-----------------------------------------------------------------------
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+| BG |   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=352]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
+
+LOG: Define initial conditions for momentum in !LC & !ROTATION sub-domain: nsd=0
+
+ nsd = 0: max velocity = 0                     in kcv = -1 	 min velocity =  0                     in kcv = 2325 
+ Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+slv : SolveBL stage
+|nsd|Real WF|NormalF|Cycle F|CriticF| EdgeF |CyclBrF|ExtParF|RWFnumSt|StLvlNum|  nfw  |  alp_U_min  |  nfw  |  alp_U_max  |  nfw  |  alp_T_min  |  nfw  |  alp_T_max  |  nfw  |  BL_s_min   |  nfw  |   BL_s_max  |
+|  0|   2054|      0|      0|   2054|      0|      0|      0|    2054|       1|    171|0.000322776  |     50|0.000935517  |    171|192.612      |     50|558.258      |      0|0            |      0|0            |
+LOG nsd = 0: numb_of_convergent=14, numb_of_divergent=39
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
+dP/dn (nsd = 0): Nfw_skipped_by_dP_dn_geom_flag = 12, Nfw_with_curvature_limiting = 0, Nfw_skipped_by_negative_crd_n = 0. Totals: skipped or corrected FW ratio = 0.584226%, skipped or corrected WALL AREA ratio = 0.2861%.
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+| 3M |   0|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+Velocity (predicted):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+slv : 
+slv : NUMBER OF INNER ITERATIONS = 1
+slv : 
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|DVGR|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=330]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|CHT |   0|  2.904547e-46|  5.897798e-22|  2.904547e-46|  1.000170e-45|  1.242839e-21|     1|   3|0|y|30|  OK  |
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|turb|   0|   0|  6.636627e-21|  2.398931e-09|  6.636627e-21|  2.261725e-40|  4.138459e-19|     1|   3|0|y|30|  OK  |
+|turb|   0|   1|  1.562463e-21|  1.166864e-09|  1.562463e-21|  5.240145e-41|  2.007065e-19|     1|   3|0|y|30|  OK  |
+Filter: K,E,momentum: sd =   0 isolating K from zero=      0 E from zero=    894 E from infinity=      0
+Velocity (corrected):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+slv : Fluid subdom(new) 0
+slv : P static (new)                 : min(      0) = 101325               , max(      0) = 101325               
+slv : Density (new)                  : min(    102) = 997.56173932778      , max(      0) = 997.56173932779      
+slv : Velocity (new)                 : min(      0) = 0                    , max(      0) = 0                    
+slv : Turbulent k (new)              : min(    102) = 1e-40                , max(    178) = 9.375e-08            
+slv : Turbulent e (new)              : min(    253) = 2.0775468412938e-41  , max(    294) = 1.6365738268453e-07  
+slv : Temperature (new)              : min(      2) = 293.2                , max(    102) = 293.20000000002      
+slv : Total enthalpy, Y-shifted (new): min(     25) = 9.8254531621933e-08  , max(    174) = 9.8254531621933e-08  
+slv : MASS FLUXES AT OPENINGS: MF=0, AP=0
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : |          Collector name          | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : | Calculate_inc                    |       0.000|      0|       0.000|       0.000|
+slv : | CollectEMT_Results               |       0.000|      1|       0.000|       0.000|
+slv : | HeatPathCalculator_Dynamic       |       0.016|      1|       0.016|       0.016|
+slv : | LiSy_make_portrait               |       0.006|     17|       0.000|       0.002|
+slv : | ReInitSlidingDependentData       |       0.000|      1|       0.000|       0.000|
+slv : | build_sl_ordering_CHT            |       0.001|      1|       0.001|       0.001|
+slv : | build_sl_ordering_MDS            |       0.002|      1|       0.002|       0.002|
+slv : | build_sl_ordering_fluid          |       0.002|      1|       0.002|       0.002|
+slv : | calc_Convolutions_MDS            |       0.002|      1|       0.002|       0.002|
+slv : | calc_wall_dist                   |       0.123|      1|       0.123|       0.123|
+slv : | create_Gr_operators_MDS          |       0.003|      1|       0.003|       0.003|
+slv : | create_Gr_operators_portrait_MDS |       0.001|      1|       0.001|       0.001|
+slv : | init_Hy_group_MDS                |       0.001|      1|       0.001|       0.001|
+slv : | perform_stage_total              |       0.238|     36|       0.007|       0.124|
+slv : | precalc_at_start_MDS             |       0.044|      2|       0.022|       0.041|
+slv : | slide_mesh                       |       0.000|      1|       0.000|       0.000|
+slv : | solve_3M_MDS                     |       0.005|      1|       0.005|       0.005|
+slv : | solve_3M_alg_MDS                 |       0.001|      1|       0.001|       0.001|
+slv : | solve_BG_MDS                     |       0.002|      1|       0.002|       0.002|
+slv : | solve_BG_alg_MDS                 |       0.001|      1|       0.001|       0.001|
+slv : | solve_BL_MDS                     |       0.073|      1|       0.073|       0.073|
+slv : | solve_CHT                        |       0.004|      1|       0.004|       0.004|
+slv : | solve_CHT_MDS                    |       0.002|      1|       0.002|       0.002|
+slv : | solve_CHT_alg_MDS                |       0.001|      1|       0.001|       0.001|
+slv : | solve_DvGr_MDS                   |       0.011|      1|       0.011|       0.011|
+slv : | solve_DvGr_alg_MDS               |       0.001|      1|       0.001|       0.001|
+slv : | solve_PS+QJ                      |       0.000|      0|       0.000|       0.000|
+slv : | solve_VolFracImPhase_MDS         |       0.000|      1|       0.000|       0.000|
+slv : | solve_YLMA_MDS                   |       0.000|      1|       0.000|       0.000|
+slv : | solve_YNOx_MDS                   |       0.000|      1|       0.000|       0.000|
+slv : | solve_YTd_MDS                    |       0.000|      1|       0.000|       0.000|
+slv : | solve_YTurb_MDS                  |       0.007|      1|       0.007|       0.007|
+slv : | solve_YTurb_alg_MDS              |       0.001|      2|       0.001|       0.001|
+slv : | update_BC_MDS                    |       0.000|      2|       0.000|       0.000|
+slv : | update_Mf_after_DvGr             |       0.001|      1|       0.001|       0.001|
+slv : | update_VelPressure_MDS           |       0.000|      1|       0.000|       0.000|
+slv : +----------------------------------+------------+-------+------------+------------+
+-----------------------------------------------------------------------
+Memory Working Set Current = 104.30 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 111.91 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+-----------------------------------------------------------------------
+Algebra Pool      : mem_usage = 33.19 Mb, allocated count = 667
+
+================== Tstep=1 ===================
+  MWS[  0]=0.249916
+tau_viscous_averaged = 0.771439 
+dt(mass,momentum; nsd=  0): min dt/dtG(ncv=      0)=1.00 , max dt/dtG(ncv=      0)=1.0    , dtG=0.00244488
+-----------------------------------------------------------------------
+SLIDING MESH: sliding...
+	Subdom ANGLE: nsd(0) angle=0.0000 pi (angle=0.0000000000000000, delta=0.0000 pi)
+SLIDING MESH: making fs-nb connectivity...
+SLIDING MESH: making fs-nb connectivity takes 0.000 s
+SLIDING MESH: sliding takes 0.001 s
+-----------------------------------------------------------------------
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+| BG |   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=352]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+slv : SolveBL stage
+|nsd|Real WF|NormalF|Cycle F|CriticF| EdgeF |CyclBrF|ExtParF|RWFnumSt|StLvlNum|  nfw  |  alp_U_min  |  nfw  |  alp_U_max  |  nfw  |  alp_T_min  |  nfw  |  alp_T_max  |  nfw  |  BL_s_min   |  nfw  |   BL_s_max  |
+|  0|   2054|      0|      0|   2054|      0|      0|      0|    2054|       1|    278|0.000322776  |     54|0.000935517  |    171|192.612      |     50|558.258      |      0|0            |      0|0            |
+LOG nsd = 0: numb_of_convergent=14, numb_of_divergent=39
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+| 3M |   0|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+Velocity (predicted):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|DVGR|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=330]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|CHT |   0|  1.794810e-21|  1.002926e-09|  1.794810e-21|  7.326369e-46|  1.029426e-21|     1|   3|0|y|30|  OK  |
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|turb|   0|   0|  6.567378e-21|  2.388991e-09|  6.567378e-21|  1.901783e-40|  3.808116e-19|     1|   3|0|y|30|  OK  |
+|turb|   0|   1|  5.985203e-21|  3.319174e-09|  5.985203e-21|  8.180890e-41|  3.106226e-19|     1|   3|0|y|30|  OK  |
+Filter: K,E,momentum: sd =   0 isolating K from zero=      0 E from zero=    894 E from infinity=    642
+Velocity (corrected):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+slv : Fluid subdom(new) 0
+slv : P static (new)                 : min(      0) = 101325               , max(      0) = 101325               
+slv : Density (new)                  : min(    102) = 997.56173932778      , max(      0) = 997.56173932779      
+slv : Velocity (new)                 : min(      0) = 0                    , max(      0) = 0                    
+slv : Turbulent k (new)              : min(    102) = 1e-40                , max(    177) = 9.375e-08            
+slv : Turbulent e (new)              : min(    253) = 2.0775468412928e-41  , max(    294) = 1.636573826845e-07   
+slv : Temperature (new)              : min(      2) = 293.2                , max(    102) = 293.20000000002      
+slv : Total enthalpy, Y-shifted (new): min(   1929) = 9.8201593490122e-08  , max(   2830) = 9.8355460663131e-08  
+slv : MASS FLUXES AT OPENINGS: MF=0, AP=0
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : |          Collector name          | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : | Calculate_inc                    |       0.141|      1|       0.141|       0.141|
+slv : | CollectEMT_Results               |       0.000|      2|       0.000|       0.000|
+slv : | HeatPathCalculator_Dynamic       |       0.016|      1|       0.016|       0.016|
+slv : | LiSy_make_portrait               |       0.009|     23|       0.000|       0.002|
+slv : | ReInitSlidingDependentData       |       0.000|      2|       0.000|       0.000|
+slv : | Results_processing               |       0.153|      1|       0.153|       0.153|
+slv : | build_sl_ordering_CHT            |       0.001|      2|       0.001|       0.001|
+slv : | build_sl_ordering_MDS            |       0.004|      2|       0.002|       0.002|
+slv : | build_sl_ordering_fluid          |       0.003|      2|       0.002|       0.002|
+slv : | calc_Convolutions_MDS            |       0.004|      2|       0.002|       0.002|
+slv : | calc_wall_dist                   |       0.123|      1|       0.123|       0.123|
+slv : | create_Gr_operators_MDS          |       0.006|      2|       0.003|       0.003|
+slv : | create_Gr_operators_portrait_MDS |       0.002|      2|       0.001|       0.001|
+slv : | init_Hy_group_MDS                |       0.003|      2|       0.001|       0.001|
+slv : | perform_stage_total              |       0.334|     66|       0.005|       0.124|
+slv : | precalc_at_start_MDS             |       0.044|      2|       0.022|       0.041|
+slv : | slide_mesh                       |       0.001|      2|       0.001|       0.001|
+slv : | solve_3M_MDS                     |       0.010|      2|       0.005|       0.005|
+slv : | solve_3M_alg_MDS                 |       0.002|      2|       0.001|       0.001|
+slv : | solve_BG_MDS                     |       0.004|      2|       0.002|       0.002|
+slv : | solve_BG_alg_MDS                 |       0.001|      2|       0.001|       0.001|
+slv : | solve_BL_MDS                     |       0.134|      2|       0.067|       0.073|
+slv : | solve_CHT                        |       0.008|      2|       0.004|       0.004|
+slv : | solve_CHT_MDS                    |       0.004|      2|       0.002|       0.002|
+slv : | solve_CHT_alg_MDS                |       0.001|      2|       0.000|       0.001|
+slv : | solve_DvGr_MDS                   |       0.021|      2|       0.010|       0.011|
+slv : | solve_DvGr_alg_MDS               |       0.003|      2|       0.001|       0.001|
+slv : | solve_PS+QJ                      |       0.000|      0|       0.000|       0.000|
+slv : | solve_VolFracImPhase_MDS         |       0.000|      2|       0.000|       0.000|
+slv : | solve_YLMA_MDS                   |       0.000|      2|       0.000|       0.000|
+slv : | solve_YNOx_MDS                   |       0.000|      2|       0.000|       0.000|
+slv : | solve_YTd_MDS                    |       0.000|      2|       0.000|       0.000|
+slv : | solve_YTurb_MDS                  |       0.015|      2|       0.008|       0.008|
+slv : | solve_YTurb_alg_MDS              |       0.002|      4|       0.001|       0.001|
+slv : | update_BC_MDS                    |       0.000|      3|       0.000|       0.000|
+slv : | update_Mf_after_DvGr             |       0.002|      2|       0.001|       0.001|
+slv : | update_VelPressure_MDS           |       0.001|      2|       0.000|       0.000|
+slv : +----------------------------------+------------+-------+------------+------------+
+-----------------------------------------------------------------------
+Memory Working Set Current = 104.56 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 116.17 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+-----------------------------------------------------------------------
+Algebra Pool      : mem_usage = 33.19 Mb, allocated count = 677
+
+================== Tstep=2 ===================
+  MWS[  0]=0.249382
+tau_viscous_averaged = 0.771439 
+dt(mass,momentum; nsd=  0): min dt/dtG(ncv=      0)=1.00 , max dt/dtG(ncv=      0)=1.0    , dtG=0.0024501
+-----------------------------------------------------------------------
+SLIDING MESH: sliding...
+	Subdom ANGLE: nsd(0) angle=0.0000 pi (angle=0.0000000000000000, delta=0.0000 pi)
+SLIDING MESH: making fs-nb connectivity...
+SLIDING MESH: making fs-nb connectivity takes 0.000 s
+SLIDING MESH: sliding takes 0.001 s
+-----------------------------------------------------------------------
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+| BG |   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=352]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+slv : SolveBL stage
+|nsd|Real WF|NormalF|Cycle F|CriticF| EdgeF |CyclBrF|ExtParF|RWFnumSt|StLvlNum|  nfw  |  alp_U_min  |  nfw  |  alp_U_max  |  nfw  |  alp_T_min  |  nfw  |  alp_T_max  |  nfw  |  BL_s_min   |  nfw  |   BL_s_max  |
+|  0|   2054|      0|      0|   2054|      0|      0|      0|    2054|       1|    278|0.000322776  |     54|0.000935517  |    171|192.612      |     50|558.258      |      0|0            |      0|0            |
+LOG nsd = 0: numb_of_convergent=14, numb_of_divergent=39
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+| 3M |   0|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+Velocity (predicted):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|DVGR|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=330]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|CHT |   0|  1.789510e-21|  1.002400e-09|  1.789510e-21|  7.413608e-46|  1.043902e-21|     1|   3|0|y|30|  OK  |
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|turb|   0|   0|  6.545766e-21|  2.386011e-09|  6.545766e-21|  1.920185e-40|  3.827038e-19|     1|   3|0|y|30|  OK  |
+|turb|   0|   1|  5.970878e-21|  3.314930e-09|  5.970878e-21|  8.261358e-41|  3.121196e-19|     1|   3|0|y|30|  OK  |
+Filter: K,E,momentum: sd =   0 isolating K from zero=      0 E from zero=    894 E from infinity=    642
+Velocity (corrected):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+slv : Fluid subdom(new) 0
+slv : P static (new)                 : min(      0) = 101325               , max(      0) = 101325               
+slv : Density (new)                  : min(    102) = 997.56173932778      , max(      0) = 997.56173932779      
+slv : Velocity (new)                 : min(      0) = 0                    , max(      0) = 0                    
+slv : Turbulent k (new)              : min(    102) = 1e-40                , max(    177) = 9.375e-08            
+slv : Turbulent e (new)              : min(    253) = 2.0775468412928e-41  , max(    294) = 1.6365738268441e-07  
+slv : Temperature (new)              : min(      2) = 293.2                , max(    102) = 293.20000000002      
+slv : Total enthalpy, Y-shifted (new): min(   1929) = 9.8148657031885e-08  , max(   2830) = 9.8456522601824e-08  
+slv : MASS FLUXES AT OPENINGS: MF=0, AP=0
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : |          Collector name          | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : | Calculate_inc                    |       0.255|      2|       0.128|       0.141|
+slv : | CollectEMT_Results               |       0.000|      3|       0.000|       0.000|
+slv : | HeatPathCalculator_Dynamic       |       0.016|      1|       0.016|       0.016|
+slv : | LiSy_make_portrait               |       0.011|     29|       0.000|       0.002|
+slv : | ReInitSlidingDependentData       |       0.000|      3|       0.000|       0.000|
+slv : | Results_processing               |       0.290|      2|       0.145|       0.153|
+slv : | build_sl_ordering_CHT            |       0.002|      3|       0.001|       0.001|
+slv : | build_sl_ordering_MDS            |       0.005|      3|       0.002|       0.002|
+slv : | build_sl_ordering_fluid          |       0.005|      3|       0.002|       0.002|
+slv : | calc_Convolutions_MDS            |       0.006|      3|       0.002|       0.002|
+slv : | calc_wall_dist                   |       0.123|      1|       0.123|       0.123|
+slv : | create_Gr_operators_MDS          |       0.009|      3|       0.003|       0.003|
+slv : | create_Gr_operators_portrait_MDS |       0.002|      3|       0.001|       0.001|
+slv : | init_Hy_group_MDS                |       0.003|      3|       0.001|       0.001|
+slv : | perform_stage_total              |       0.413|     96|       0.004|       0.124|
+slv : | precalc_at_start_MDS             |       0.044|      2|       0.022|       0.041|
+slv : | slide_mesh                       |       0.002|      3|       0.001|       0.001|
+slv : | solve_3M_MDS                     |       0.013|      3|       0.004|       0.005|
+slv : | solve_3M_alg_MDS                 |       0.003|      3|       0.001|       0.001|
+slv : | solve_BG_MDS                     |       0.006|      3|       0.002|       0.002|
+slv : | solve_BG_alg_MDS                 |       0.002|      3|       0.001|       0.001|
+slv : | solve_BL_MDS                     |       0.188|      3|       0.063|       0.073|
+slv : | solve_CHT                        |       0.010|      3|       0.003|       0.004|
+slv : | solve_CHT_MDS                    |       0.006|      3|       0.002|       0.002|
+slv : | solve_CHT_alg_MDS                |       0.001|      3|       0.000|       0.001|
+slv : | solve_DvGr_MDS                   |       0.028|      3|       0.009|       0.011|
+slv : | solve_DvGr_alg_MDS               |       0.003|      3|       0.001|       0.001|
+slv : | solve_PS+QJ                      |       0.000|      0|       0.000|       0.000|
+slv : | solve_VolFracImPhase_MDS         |       0.000|      3|       0.000|       0.000|
+slv : | solve_YLMA_MDS                   |       0.000|      3|       0.000|       0.000|
+slv : | solve_YNOx_MDS                   |       0.000|      3|       0.000|       0.000|
+slv : | solve_YTd_MDS                    |       0.000|      3|       0.000|       0.000|
+slv : | solve_YTurb_MDS                  |       0.021|      3|       0.007|       0.008|
+slv : | solve_YTurb_alg_MDS              |       0.003|      6|       0.001|       0.001|
+slv : | update_BC_MDS                    |       0.000|      4|       0.000|       0.000|
+slv : | update_Mf_after_DvGr             |       0.002|      3|       0.001|       0.001|
+slv : | update_VelPressure_MDS           |       0.001|      3|       0.000|       0.000|
+slv : +----------------------------------+------------+-------+------------+------------+
+-----------------------------------------------------------------------
+Memory Working Set Current = 104.59 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 120.43 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+-----------------------------------------------------------------------
+Algebra Pool      : mem_usage = 33.19 Mb, allocated count = 671
+
+================== Tstep=3 ===================
+  MWS[  0]=0.245503
+tau_viscous_averaged = 0.771439 
+dt(mass,momentum; nsd=  0): min dt/dtG(ncv=      0)=1.00 , max dt/dtG(ncv=      0)=1.0    , dtG=0.00248868
+-----------------------------------------------------------------------
+SLIDING MESH: sliding...
+	Subdom ANGLE: nsd(0) angle=0.0000 pi (angle=0.0000000000000000, delta=0.0000 pi)
+SLIDING MESH: making fs-nb connectivity...
+SLIDING MESH: making fs-nb connectivity takes 0.000 s
+SLIDING MESH: sliding takes 0.000 s
+-----------------------------------------------------------------------
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+| BG |   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=352]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+slv : SolveBL stage
+|nsd|Real WF|NormalF|Cycle F|CriticF| EdgeF |CyclBrF|ExtParF|RWFnumSt|StLvlNum|  nfw  |  alp_U_min  |  nfw  |  alp_U_max  |  nfw  |  alp_T_min  |  nfw  |  alp_T_max  |  nfw  |  BL_s_min   |  nfw  |   BL_s_max  |
+|  0|   2054|      0|      0|   2054|      0|      0|      0|    2054|       1|    278|0.000322776  |     54|0.000935517  |    171|192.612      |     50|558.258      |      0|0            |      0|0            |
+LOG nsd = 0: numb_of_convergent=14, numb_of_divergent=39
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+| 3M |   0|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+Velocity (predicted):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|DVGR|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=330]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|CHT |   0|  1.784221e-21|  1.001872e-09|  1.784221e-21|  7.808749e-46|  1.055896e-21|     1|   3|0|y|30|  OK  |
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|turb|   0|   0|  6.524200e-21|  2.383031e-09|  4.077625e-25|  2.870335e-46|  6.071506e-22|     1|   6|0|n|30|  OK  |
+|turb|   0|   1|  5.956585e-21|  3.310735e-09|  5.956585e-21|  9.047647e-41|  3.266732e-19|     1|   3|0|y|30|  OK  |
+Filter: K,E,momentum: sd =   0 isolating K from zero=      0 E from zero=    894 E from infinity=    642
+Velocity (corrected):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+slv : Fluid subdom(new) 0
+slv : P static (new)                 : min(      0) = 101325               , max(      0) = 101325               
+slv : Density (new)                  : min(    102) = 997.56173932778      , max(      0) = 997.56173932779      
+slv : Velocity (new)                 : min(      0) = 0                    , max(      0) = 0                    
+slv : Turbulent k (new)              : min(    102) = 1e-40                , max(    791) = 9.375e-08            
+slv : Turbulent e (new)              : min(    253) = 2.0775468412928e-41  , max(    294) = 1.6365738268423e-07  
+slv : Temperature (new)              : min(      2) = 293.2                , max(    102) = 293.20000000002      
+slv : Total enthalpy, Y-shifted (new): min(   1929) = 9.8095003703141e-08  , max(   2830) = 9.8559091570008e-08  
+slv : MASS FLUXES AT OPENINGS: MF=0, AP=0
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : |          Collector name          | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : | Calculate_inc                    |       0.351|      3|       0.117|       0.141|
+slv : | CollectEMT_Results               |       0.000|      4|       0.000|       0.000|
+slv : | HeatPathCalculator_Dynamic       |       0.016|      1|       0.016|       0.016|
+slv : | LiSy_make_portrait               |       0.013|     33|       0.000|       0.002|
+slv : | ReInitSlidingDependentData       |       0.000|      4|       0.000|       0.000|
+slv : | Results_processing               |       0.435|      3|       0.145|       0.153|
+slv : | build_sl_ordering_CHT            |       0.002|      4|       0.000|       0.001|
+slv : | build_sl_ordering_MDS            |       0.005|      4|       0.001|       0.002|
+slv : | build_sl_ordering_fluid          |       0.005|      4|       0.001|       0.002|
+slv : | calc_Convolutions_MDS            |       0.007|      4|       0.002|       0.002|
+slv : | calc_wall_dist                   |       0.123|      1|       0.123|       0.123|
+slv : | create_Gr_operators_MDS          |       0.010|      4|       0.003|       0.003|
+slv : | create_Gr_operators_portrait_MDS |       0.003|      4|       0.001|       0.001|
+slv : | init_Hy_group_MDS                |       0.004|      4|       0.001|       0.001|
+slv : | perform_stage_total              |       0.502|    126|       0.004|       0.124|
+slv : | precalc_at_start_MDS             |       0.044|      2|       0.022|       0.041|
+slv : | slide_mesh                       |       0.003|      4|       0.001|       0.001|
+slv : | solve_3M_MDS                     |       0.015|      4|       0.004|       0.005|
+slv : | solve_3M_alg_MDS                 |       0.004|      4|       0.001|       0.001|
+slv : | solve_BG_MDS                     |       0.009|      4|       0.002|       0.003|
+slv : | solve_BG_alg_MDS                 |       0.002|      4|       0.001|       0.001|
+slv : | solve_BL_MDS                     |       0.248|      4|       0.062|       0.073|
+slv : | solve_CHT                        |       0.013|      4|       0.003|       0.004|
+slv : | solve_CHT_MDS                    |       0.007|      4|       0.002|       0.002|
+slv : | solve_CHT_alg_MDS                |       0.002|      4|       0.000|       0.001|
+slv : | solve_DvGr_MDS                   |       0.037|      4|       0.009|       0.011|
+slv : | solve_DvGr_alg_MDS               |       0.005|      4|       0.001|       0.001|
+slv : | solve_PS+QJ                      |       0.000|      0|       0.000|       0.000|
+slv : | solve_VolFracImPhase_MDS         |       0.000|      4|       0.000|       0.000|
+slv : | solve_YLMA_MDS                   |       0.000|      4|       0.000|       0.000|
+slv : | solve_YNOx_MDS                   |       0.000|      4|       0.000|       0.000|
+slv : | solve_YTd_MDS                    |       0.000|      4|       0.000|       0.000|
+slv : | solve_YTurb_MDS                  |       0.029|      4|       0.007|       0.008|
+slv : | solve_YTurb_alg_MDS              |       0.004|      8|       0.001|       0.001|
+slv : | update_BC_MDS                    |       0.000|      5|       0.000|       0.000|
+slv : | update_Mf_after_DvGr             |       0.003|      4|       0.001|       0.001|
+slv : | update_VelPressure_MDS           |       0.001|      4|       0.000|       0.000|
+slv : +----------------------------------+------------+-------+------------+------------+
+-----------------------------------------------------------------------
+Memory Working Set Current = 104.62 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 120.77 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+-----------------------------------------------------------------------
+Algebra Pool      : mem_usage = 33.19 Mb, allocated count = 673
+
+================== Tstep=4 ===================
+  MWS[  0]=0.220199
+tau_viscous_averaged = 0.77144 
+dt(mass,momentum; nsd=  0): min dt/dtG(ncv=      0)=1.00 , max dt/dtG(ncv=      0)=1.0    , dtG=0.00277364
+-----------------------------------------------------------------------
+SLIDING MESH: sliding...
+	Subdom ANGLE: nsd(0) angle=0.0000 pi (angle=0.0000000000000000, delta=0.0000 pi)
+SLIDING MESH: making fs-nb connectivity...
+SLIDING MESH: making fs-nb connectivity takes 0.000 s
+SLIDING MESH: sliding takes 0.001 s
+-----------------------------------------------------------------------
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+| BG |   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=352]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+slv : SolveBL stage
+|nsd|Real WF|NormalF|Cycle F|CriticF| EdgeF |CyclBrF|ExtParF|RWFnumSt|StLvlNum|  nfw  |  alp_U_min  |  nfw  |  alp_U_max  |  nfw  |  alp_T_min  |  nfw  |  alp_T_max  |  nfw  |  BL_s_min   |  nfw  |   BL_s_max  |
+|  0|   2054|      0|      0|   2054|      0|      0|      0|    2054|       1|    278|0.000322776  |     54|0.000935517  |    171|192.612      |     50|558.258      |      0|0            |      0|0            |
+LOG nsd = 0: numb_of_convergent=14, numb_of_divergent=39
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+| 3M |   0|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+Velocity (predicted):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|DVGR|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=330]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|CHT |   0|  1.778871e-21|  1.001336e-09|  1.778871e-21|  8.629823e-46|  1.094774e-21|     1|   3|0|y|30|  OK  |
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|turb|   0|   0|  6.502388e-21|  2.380011e-09|  4.063993e-25|  2.574407e-46|  5.670323e-22|     1|   6|0|n|30|  OK  |
+|turb|   0|   1|  5.942129e-21|  3.306486e-09|  3.713831e-25|  2.569168e-46|  3.634425e-22|     1|   6|0|n|30|  OK  |
+Filter: K,E,momentum: sd =   0 isolating K from zero=      0 E from zero=    894 E from infinity=    642
+Velocity (corrected):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+slv : Fluid subdom(new) 0
+slv : P static (new)                 : min(      0) = 101325               , max(      0) = 101325               
+slv : Density (new)                  : min(    102) = 997.56173932778      , max(      0) = 997.56173932779      
+slv : Velocity (new)                 : min(      0) = 0                    , max(      0) = 0                    
+slv : Turbulent k (new)              : min(    102) = 1e-40                , max(    791) = 9.375e-08            
+slv : Turbulent e (new)              : min(    253) = 2.0775468412928e-41  , max(    294) = 1.6365738268386e-07  
+slv : Temperature (new)              : min(      2) = 293.2                , max(    102) = 293.20000000002      
+slv : Total enthalpy, Y-shifted (new): min(   1929) = 9.8035340297179e-08  , max(   2830) = 9.8673306665644e-08  
+slv : MASS FLUXES AT OPENINGS: MF=0, AP=0
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : |          Collector name          | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : | Calculate_inc                    |       0.458|      4|       0.114|       0.141|
+slv : | CollectEMT_Results               |       0.000|      5|       0.000|       0.000|
+slv : | HeatPathCalculator_Dynamic       |       0.016|      1|       0.016|       0.016|
+slv : | LiSy_make_portrait               |       0.014|     37|       0.000|       0.002|
+slv : | ReInitSlidingDependentData       |       0.000|      5|       0.000|       0.000|
+slv : | Results_processing               |       0.582|      4|       0.146|       0.153|
+slv : | build_sl_ordering_CHT            |       0.002|      5|       0.000|       0.001|
+slv : | build_sl_ordering_MDS            |       0.005|      5|       0.001|       0.002|
+slv : | build_sl_ordering_fluid          |       0.005|      5|       0.001|       0.002|
+slv : | calc_Convolutions_MDS            |       0.009|      5|       0.002|       0.002|
+slv : | calc_wall_dist                   |       0.123|      1|       0.123|       0.123|
+slv : | create_Gr_operators_MDS          |       0.013|      5|       0.003|       0.003|
+slv : | create_Gr_operators_portrait_MDS |       0.004|      5|       0.001|       0.001|
+slv : | init_Hy_group_MDS                |       0.005|      5|       0.001|       0.001|
+slv : | perform_stage_total              |       0.581|    156|       0.004|       0.124|
+slv : | precalc_at_start_MDS             |       0.044|      2|       0.022|       0.041|
+slv : | slide_mesh                       |       0.004|      5|       0.001|       0.001|
+slv : | solve_3M_MDS                     |       0.018|      5|       0.004|       0.005|
+slv : | solve_3M_alg_MDS                 |       0.004|      5|       0.001|       0.001|
+slv : | solve_BG_MDS                     |       0.011|      5|       0.002|       0.003|
+slv : | solve_BG_alg_MDS                 |       0.003|      5|       0.001|       0.001|
+slv : | solve_BL_MDS                     |       0.302|      5|       0.060|       0.073|
+slv : | solve_CHT                        |       0.016|      5|       0.003|       0.004|
+slv : | solve_CHT_MDS                    |       0.009|      5|       0.002|       0.002|
+slv : | solve_CHT_alg_MDS                |       0.002|      5|       0.000|       0.001|
+slv : | solve_DvGr_MDS                   |       0.044|      5|       0.009|       0.011|
+slv : | solve_DvGr_alg_MDS               |       0.005|      5|       0.001|       0.001|
+slv : | solve_PS+QJ                      |       0.000|      0|       0.000|       0.000|
+slv : | solve_VolFracImPhase_MDS         |       0.000|      5|       0.000|       0.000|
+slv : | solve_YLMA_MDS                   |       0.000|      5|       0.000|       0.000|
+slv : | solve_YNOx_MDS                   |       0.000|      5|       0.000|       0.000|
+slv : | solve_YTd_MDS                    |       0.000|      5|       0.000|       0.000|
+slv : | solve_YTurb_MDS                  |       0.035|      5|       0.007|       0.008|
+slv : | solve_YTurb_alg_MDS              |       0.006|     10|       0.001|       0.001|
+slv : | update_BC_MDS                    |       0.000|      6|       0.000|       0.000|
+slv : | update_Mf_after_DvGr             |       0.003|      5|       0.001|       0.001|
+slv : | update_VelPressure_MDS           |       0.001|      5|       0.000|       0.000|
+slv : +----------------------------------+------------+-------+------------+------------+
+Interpolator cache: total calls 22045, optimised calls 11253 (51.0 %)
+-----------------------------------------------------------------------
+Memory Working Set Current = 104.65 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 120.77 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+-----------------------------------------------------------------------
+Iteration : time = 1.33128 , count = 5 , time/count = 0.266256
+Calculate_inc() : time = 0.553839 , count = 5 , time/count = 0.110768
+TreatFlowEvolution() : time = 0.735245 , count = 5 , time/count = 0.147049
+SolverPreview : time = 0 , count = 6 , time/count = 0
+TreatGoals : time = 0.7313 , count = 5 , time/count = 0.14626
+PrepareForCalculation : time = 2.6772 , count = 1 , time/count = 2.6772
+Algebra Pool      : mem_usage = 33.19 Mb, allocated count = 673
+
+================== Tstep=5 ===================
+  MWS[  0]=0.125
+tau_viscous_averaged = 0.77144 
+dt(mass,momentum; nsd=  0): min dt/dtG(ncv=      0)=1.00 , max dt/dtG(ncv=      0)=1.0    , dtG=0.00731723
+-----------------------------------------------------------------------
+SLIDING MESH: sliding...
+	Subdom ANGLE: nsd(0) angle=0.0000 pi (angle=0.0000000000000000, delta=0.0000 pi)
+SLIDING MESH: making fs-nb connectivity...
+SLIDING MESH: making fs-nb connectivity takes 0.000 s
+SLIDING MESH: sliding takes 0.000 s
+-----------------------------------------------------------------------
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+| BG |   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=352]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+slv : SolveBL stage
+|nsd|Real WF|NormalF|Cycle F|CriticF| EdgeF |CyclBrF|ExtParF|RWFnumSt|StLvlNum|  nfw  |  alp_U_min  |  nfw  |  alp_U_max  |  nfw  |  alp_T_min  |  nfw  |  alp_T_max  |  nfw  |  BL_s_min   |  nfw  |   BL_s_max  |
+|  0|   2054|      0|      0|   2054|      0|      0|      0|    2054|       1|    278|0.000322776  |     54|0.000935517  |    171|192.612      |     50|558.258      |      0|0            |      0|0            |
+LOG nsd = 0: numb_of_convergent=14, numb_of_divergent=39
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+| 3M |   0|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+Velocity (predicted):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|DVGR|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=330]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|CHT |   0|  1.772935e-21|  1.000739e-09|  1.772935e-21|  1.446760e-43|  9.612873e-21|     1|   3|0|y|30|  OK  |
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|turb|   0|   0|  6.478191e-21|  2.376654e-09|  4.048869e-25|  6.536513e-47|  2.882724e-22|     1|   6|0|n|30|  OK  |
+|turb|   0|   1|  5.926094e-21|  3.301783e-09|  3.703809e-25|  2.423128e-47|  1.371052e-22|     1|   6|0|n|30|  OK  |
+Filter: K,E,momentum: sd =   0 isolating K from zero=      0 E from zero=    894 E from infinity=    642
+Velocity (corrected):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+slv : Fluid subdom(new) 0
+slv : P static (new)                 : min(      0) = 101325               , max(      0) = 101325               
+slv : Density (new)                  : min(    102) = 997.56173932778      , max(      0) = 997.56173932779      
+slv : Velocity (new)                 : min(      0) = 0                    , max(      0) = 0                    
+slv : Turbulent k (new)              : min(    102) = 1e-40                , max(    791) = 9.3749999999997e-08  
+slv : Turbulent e (new)              : min(    253) = 2.0775468412928e-41  , max(    294) = 1.6365738267982e-07  
+slv : Temperature (new)              : min(      2) = 293.2                , max(    102) = 293.20000000002      
+slv : Total enthalpy, Y-shifted (new): min(   1929) = 9.7878399506286e-08  , max(   2830) = 9.8974205466785e-08  
+slv : MASS FLUXES AT OPENINGS: MF=0, AP=0
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : |          Collector name          | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : | Calculate_inc                    |       0.554|      5|       0.111|       0.141|
+slv : | CollectEMT_Results               |       0.000|      6|       0.000|       0.000|
+slv : | HeatPathCalculator_Dynamic       |       0.016|      1|       0.016|       0.016|
+slv : | LiSy_make_portrait               |       0.017|     41|       0.000|       0.003|
+slv : | ReInitSlidingDependentData       |       0.000|      6|       0.000|       0.000|
+slv : | Results_processing               |       0.737|      5|       0.147|       0.155|
+slv : | build_sl_ordering_CHT            |       0.002|      6|       0.000|       0.001|
+slv : | build_sl_ordering_MDS            |       0.005|      6|       0.001|       0.002|
+slv : | build_sl_ordering_fluid          |       0.005|      6|       0.001|       0.002|
+slv : | calc_Convolutions_MDS            |       0.010|      6|       0.002|       0.002|
+slv : | calc_wall_dist                   |       0.123|      1|       0.123|       0.123|
+slv : | create_Gr_operators_MDS          |       0.015|      6|       0.003|       0.003|
+slv : | create_Gr_operators_portrait_MDS |       0.004|      6|       0.001|       0.001|
+slv : | init_Hy_group_MDS                |       0.006|      6|       0.001|       0.001|
+slv : | perform_stage_total              |       0.670|    186|       0.004|       0.124|
+slv : | precalc_at_start_MDS             |       0.044|      2|       0.022|       0.041|
+slv : | slide_mesh                       |       0.004|      6|       0.001|       0.001|
+slv : | solve_3M_MDS                     |       0.021|      6|       0.004|       0.005|
+slv : | solve_3M_alg_MDS                 |       0.005|      6|       0.001|       0.001|
+slv : | solve_BG_MDS                     |       0.013|      6|       0.002|       0.003|
+slv : | solve_BG_alg_MDS                 |       0.004|      6|       0.001|       0.001|
+slv : | solve_BL_MDS                     |       0.361|      6|       0.060|       0.073|
+slv : | solve_CHT                        |       0.019|      6|       0.003|       0.004|
+slv : | solve_CHT_MDS                    |       0.012|      6|       0.002|       0.002|
+slv : | solve_CHT_alg_MDS                |       0.003|      6|       0.001|       0.001|
+slv : | solve_DvGr_MDS                   |       0.055|      6|       0.009|       0.011|
+slv : | solve_DvGr_alg_MDS               |       0.007|      6|       0.001|       0.001|
+slv : | solve_PS+QJ                      |       0.000|      0|       0.000|       0.000|
+slv : | solve_VolFracImPhase_MDS         |       0.000|      6|       0.000|       0.000|
+slv : | solve_YLMA_MDS                   |       0.000|      6|       0.000|       0.000|
+slv : | solve_YNOx_MDS                   |       0.000|      6|       0.000|       0.000|
+slv : | solve_YTd_MDS                    |       0.000|      6|       0.000|       0.000|
+slv : | solve_YTurb_MDS                  |       0.043|      6|       0.007|       0.008|
+slv : | solve_YTurb_alg_MDS              |       0.007|     12|       0.001|       0.001|
+slv : | update_BC_MDS                    |       0.000|      7|       0.000|       0.000|
+slv : | update_Mf_after_DvGr             |       0.004|      6|       0.001|       0.001|
+slv : | update_VelPressure_MDS           |       0.002|      6|       0.000|       0.000|
+slv : +----------------------------------+------------+-------+------------+------------+
+-----------------------------------------------------------------------
+Memory Working Set Current = 104.61 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 120.77 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+-----------------------------------------------------------------------
+Algebra Pool      : mem_usage = 33.19 Mb, allocated count = 672
+
+================== Tstep=6 ===================
+  MWS[  0]=0.0298007
+tau_viscous_averaged = 0.77144 
+dt(mass,momentum; nsd=  0): min dt/dtG(ncv=      0)=1.00 , max dt/dtG(ncv=      0)=1.0    , dtG=0.0301908
+-----------------------------------------------------------------------
+SLIDING MESH: sliding...
+	Subdom ANGLE: nsd(0) angle=0.0000 pi (angle=0.0000000000000000, delta=0.0000 pi)
+SLIDING MESH: making fs-nb connectivity...
+SLIDING MESH: making fs-nb connectivity takes 0.000 s
+SLIDING MESH: sliding takes 0.000 s
+-----------------------------------------------------------------------
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+| BG |   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=352]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+slv : SolveBL stage
+|nsd|Real WF|NormalF|Cycle F|CriticF| EdgeF |CyclBrF|ExtParF|RWFnumSt|StLvlNum|  nfw  |  alp_U_min  |  nfw  |  alp_U_max  |  nfw  |  alp_T_min  |  nfw  |  alp_T_max  |  nfw  |  BL_s_min   |  nfw  |   BL_s_max  |
+|  0|   2054|      0|      0|   2054|      0|      0|      0|    2054|       1|    278|0.000322776  |     54|0.000935517  |    171|192.612      |     50|558.258      |      0|0            |      0|0            |
+LOG nsd = 0: numb_of_convergent=14, numb_of_divergent=39
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+| 3M |   0|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+Velocity (predicted):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|DVGR|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=330]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|CHT |   0|  1.757426e-21|  9.991628e-10|  1.757426e-21|  6.973099e-40|  6.571342e-19|     1|   3|0|y|30|  OK  |
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|turb|   0|   0|  6.414997e-21|  2.367852e-09|  4.009373e-25|  6.594980e-47|  2.211416e-22|     1|   6|0|n|30|  OK  |
+|turb|   0|   1|  5.884246e-21|  3.289467e-09|  2.390079e-25|  1.655895e-47|  1.174726e-22|     1|   6|0|n|30|  OK  |
+Filter: K,E,momentum: sd =   0 isolating K from zero=      0 E from zero=    905 E from infinity=    642
+Velocity (corrected):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+slv : Fluid subdom(new) 0
+slv : P static (new)                 : min(      0) = 101325               , max(      0) = 101325               
+slv : Density (new)                  : min(    102) = 997.56173932778      , max(      0) = 997.56173932779      
+slv : Velocity (new)                 : min(      0) = 0                    , max(      0) = 0                    
+slv : Turbulent k (new)              : min(    102) = 1e-40                , max(    791) = 9.3749999999205e-08  
+slv : Turbulent e (new)              : min(    253) = 2.0775468412928e-41  , max(    294) = 1.6365738230009e-07  
+slv : Temperature (new)              : min(      2) = 293.2                , max(    102) = 293.20000000002      
+slv : Total enthalpy, Y-shifted (new): min(   1929) = 9.7236549528038e-08  , max(   2830) = 1.0020985227301e-07  
+slv : MASS FLUXES AT OPENINGS: MF=0, AP=0
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : |          Collector name          | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : | Calculate_inc                    |       0.660|      6|       0.110|       0.141|
+slv : | CollectEMT_Results               |       0.000|      7|       0.000|       0.000|
+slv : | HeatPathCalculator_Dynamic       |       0.016|      1|       0.016|       0.016|
+slv : | LiSy_make_portrait               |       0.019|     45|       0.000|       0.003|
+slv : | ReInitSlidingDependentData       |       0.000|      7|       0.000|       0.000|
+slv : | Results_processing               |       0.873|      6|       0.145|       0.155|
+slv : | build_sl_ordering_CHT            |       0.002|      7|       0.000|       0.001|
+slv : | build_sl_ordering_MDS            |       0.005|      7|       0.001|       0.002|
+slv : | build_sl_ordering_fluid          |       0.005|      7|       0.001|       0.002|
+slv : | calc_Convolutions_MDS            |       0.012|      7|       0.002|       0.002|
+slv : | calc_wall_dist                   |       0.123|      1|       0.123|       0.123|
+slv : | create_Gr_operators_MDS          |       0.018|      7|       0.003|       0.003|
+slv : | create_Gr_operators_portrait_MDS |       0.005|      7|       0.001|       0.001|
+slv : | init_Hy_group_MDS                |       0.007|      7|       0.001|       0.001|
+slv : | perform_stage_total              |       0.750|    216|       0.003|       0.124|
+slv : | precalc_at_start_MDS             |       0.044|      2|       0.022|       0.041|
+slv : | slide_mesh                       |       0.004|      7|       0.001|       0.001|
+slv : | solve_3M_MDS                     |       0.024|      7|       0.003|       0.005|
+slv : | solve_3M_alg_MDS                 |       0.006|      7|       0.001|       0.001|
+slv : | solve_BG_MDS                     |       0.015|      7|       0.002|       0.003|
+slv : | solve_BG_alg_MDS                 |       0.004|      7|       0.001|       0.001|
+slv : | solve_BL_MDS                     |       0.417|      7|       0.060|       0.073|
+slv : | solve_CHT                        |       0.022|      7|       0.003|       0.004|
+slv : | solve_CHT_MDS                    |       0.014|      7|       0.002|       0.002|
+slv : | solve_CHT_alg_MDS                |       0.003|      7|       0.000|       0.001|
+slv : | solve_DvGr_MDS                   |       0.061|      7|       0.009|       0.011|
+slv : | solve_DvGr_alg_MDS               |       0.008|      7|       0.001|       0.001|
+slv : | solve_PS+QJ                      |       0.000|      0|       0.000|       0.000|
+slv : | solve_VolFracImPhase_MDS         |       0.000|      7|       0.000|       0.000|
+slv : | solve_YLMA_MDS                   |       0.000|      7|       0.000|       0.000|
+slv : | solve_YNOx_MDS                   |       0.000|      7|       0.000|       0.000|
+slv : | solve_YTd_MDS                    |       0.000|      7|       0.000|       0.000|
+slv : | solve_YTurb_MDS                  |       0.049|      7|       0.007|       0.008|
+slv : | solve_YTurb_alg_MDS              |       0.008|     14|       0.001|       0.001|
+slv : | update_BC_MDS                    |       0.000|      8|       0.000|       0.000|
+slv : | update_Mf_after_DvGr             |       0.004|      7|       0.001|       0.001|
+slv : | update_VelPressure_MDS           |       0.002|      7|       0.000|       0.000|
+slv : +----------------------------------+------------+-------+------------+------------+
+-----------------------------------------------------------------------
+Memory Working Set Current = 104.60 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 120.77 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+-----------------------------------------------------------------------
+Algebra Pool      : mem_usage = 33.19 Mb, allocated count = 675
+
+================== Tstep=7 ===================
+  MWS[  0]=0.00449655
+tau_viscous_averaged = 0.771441 
+dt(mass,momentum; nsd=  0): min dt/dtG(ncv=      0)=1.00 , max dt/dtG(ncv=      0)=1.0    , dtG=0.178533
+-----------------------------------------------------------------------
+SLIDING MESH: sliding...
+	Subdom ANGLE: nsd(0) angle=0.0000 pi (angle=0.0000000000000000, delta=0.0000 pi)
+SLIDING MESH: making fs-nb connectivity...
+SLIDING MESH: making fs-nb connectivity takes 0.000 s
+SLIDING MESH: sliding takes 0.000 s
+-----------------------------------------------------------------------
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+| BG |   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=352]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+slv : SolveBL stage
+|nsd|Real WF|NormalF|Cycle F|CriticF| EdgeF |CyclBrF|ExtParF|RWFnumSt|StLvlNum|  nfw  |  alp_U_min  |  nfw  |  alp_U_max  |  nfw  |  alp_T_min  |  nfw  |  alp_T_max  |  nfw  |  BL_s_min   |  nfw  |   BL_s_max  |
+|  0|   2054|      0|      0|   2054|      0|      0|      0|    2054|       1|    278|0.000322776  |     54|0.000935517  |    171|192.612      |     50|558.258      |      0|0            |      0|0            |
+LOG nsd = 0: numb_of_convergent=14, numb_of_divergent=39
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+| 3M |   0|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+Velocity (predicted):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|DVGR|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=330]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|CHT |   0|  1.695751e-21|  9.926616e-10|  1.695751e-21|  2.651588e-35|  1.294443e-16|     1|   3|0|y|30|  OK  |
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|turb|   0|   0|  6.164504e-21|  2.332467e-09|  1.527450e-27|  5.071596e-38|  5.185203e-18|     1|   6|0|n|30|  OK  |
+|turb|   0|   1|  5.718874e-21|  3.240104e-09|  7.836243e-30|  1.038734e-38|  2.739420e-18|     1|   6|0|n|30|  OK  |
+Filter: K,E,momentum: sd =   0 isolating K from zero=      0 E from zero=    926 E from infinity=    642
+Velocity (corrected):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+slv : Fluid subdom(new) 0
+slv : P static (new)                 : min(      0) = 101325               , max(      0) = 101325               
+slv : Density (new)                  : min(    102) = 997.56173932778      , max(      2) = 997.56173932779      
+slv : Velocity (new)                 : min(      0) = 0                    , max(      0) = 0                    
+slv : Turbulent k (new)              : min(    102) = 1e-40                , max(    177) = 9.3749997375854e-08  
+slv : Turbulent e (new)              : min(    253) = 2.0775468412928e-41  , max(    294) = 1.6365714127662e-07  
+slv : Temperature (new)              : min(      5) = 293.2                , max(    129) = 293.20000000002      
+slv : Total enthalpy, Y-shifted (new): min(   1929) = 9.3595656770202e-08  , max(   2293) = 1.0733907863262e-07  
+slv : MASS FLUXES AT OPENINGS: MF=0, AP=0
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : |          Collector name          | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : | Calculate_inc                    |       0.757|      7|       0.108|       0.141|
+slv : | CollectEMT_Results               |       0.000|      8|       0.000|       0.000|
+slv : | HeatPathCalculator_Dynamic       |       0.016|      1|       0.016|       0.016|
+slv : | LiSy_make_portrait               |       0.020|     49|       0.000|       0.003|
+slv : | ReInitSlidingDependentData       |       0.000|      8|       0.000|       0.000|
+slv : | Results_processing               |       1.025|      7|       0.146|       0.155|
+slv : | build_sl_ordering_CHT            |       0.002|      8|       0.000|       0.001|
+slv : | build_sl_ordering_MDS            |       0.005|      8|       0.001|       0.002|
+slv : | build_sl_ordering_fluid          |       0.005|      8|       0.001|       0.002|
+slv : | calc_Convolutions_MDS            |       0.013|      8|       0.002|       0.002|
+slv : | calc_wall_dist                   |       0.123|      1|       0.123|       0.123|
+slv : | create_Gr_operators_MDS          |       0.020|      8|       0.002|       0.003|
+slv : | create_Gr_operators_portrait_MDS |       0.006|      8|       0.001|       0.001|
+slv : | init_Hy_group_MDS                |       0.008|      8|       0.001|       0.001|
+slv : | perform_stage_total              |       0.832|    246|       0.003|       0.124|
+slv : | precalc_at_start_MDS             |       0.044|      2|       0.022|       0.041|
+slv : | slide_mesh                       |       0.005|      8|       0.001|       0.001|
+slv : | solve_3M_MDS                     |       0.027|      8|       0.003|       0.005|
+slv : | solve_3M_alg_MDS                 |       0.007|      8|       0.001|       0.001|
+slv : | solve_BG_MDS                     |       0.017|      8|       0.002|       0.003|
+slv : | solve_BG_alg_MDS                 |       0.005|      8|       0.001|       0.001|
+slv : | solve_BL_MDS                     |       0.474|      8|       0.059|       0.073|
+slv : | solve_CHT                        |       0.025|      8|       0.003|       0.004|
+slv : | solve_CHT_MDS                    |       0.015|      8|       0.002|       0.002|
+slv : | solve_CHT_alg_MDS                |       0.004|      8|       0.000|       0.001|
+slv : | solve_DvGr_MDS                   |       0.068|      8|       0.008|       0.011|
+slv : | solve_DvGr_alg_MDS               |       0.009|      8|       0.001|       0.001|
+slv : | solve_PS+QJ                      |       0.000|      0|       0.000|       0.000|
+slv : | solve_VolFracImPhase_MDS         |       0.000|      8|       0.000|       0.000|
+slv : | solve_YLMA_MDS                   |       0.000|      8|       0.000|       0.000|
+slv : | solve_YNOx_MDS                   |       0.000|      8|       0.000|       0.000|
+slv : | solve_YTd_MDS                    |       0.000|      8|       0.000|       0.000|
+slv : | solve_YTurb_MDS                  |       0.056|      8|       0.007|       0.008|
+slv : | solve_YTurb_alg_MDS              |       0.010|     16|       0.001|       0.001|
+slv : | update_BC_MDS                    |       0.000|      9|       0.000|       0.000|
+slv : | update_Mf_after_DvGr             |       0.005|      8|       0.001|       0.001|
+slv : | update_VelPressure_MDS           |       0.002|      8|       0.000|       0.000|
+slv : +----------------------------------+------------+-------+------------+------------+
+-----------------------------------------------------------------------
+Memory Working Set Current = 104.66 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 120.77 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+-----------------------------------------------------------------------
+Algebra Pool      : mem_usage = 33.19 Mb, allocated count = 669
+
+================== Tstep=8 ===================
+  MWS[  0]=0.000618156
+tau_viscous_averaged = 0.771446 
+dt(mass,momentum; nsd=  0): min dt/dtG(ncv=      0)=1.00 , max dt/dtG(ncv=      0)=1.0    , dtG=0.723093
+-----------------------------------------------------------------------
+SLIDING MESH: sliding...
+	Subdom ANGLE: nsd(0) angle=0.0000 pi (angle=0.0000000000000000, delta=0.0000 pi)
+SLIDING MESH: making fs-nb connectivity...
+SLIDING MESH: making fs-nb connectivity takes 0.000 s
+SLIDING MESH: sliding takes 0.000 s
+-----------------------------------------------------------------------
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+| BG |   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=352]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+slv : SolveBL stage
+|nsd|Real WF|NormalF|Cycle F|CriticF| EdgeF |CyclBrF|ExtParF|RWFnumSt|StLvlNum|  nfw  |  alp_U_min  |  nfw  |  alp_U_max  |  nfw  |  alp_T_min  |  nfw  |  alp_T_max  |  nfw  |  BL_s_min   |  nfw  |   BL_s_max  |
+|  0|   2054|      0|      0|   2054|      0|      0|      0|    2054|       1|    348|0.000322776  |     98|0.000935517  |    197|192.612      |     50|558.258      |      0|0            |      0|0            |
+LOG nsd = 0: numb_of_convergent=14, numb_of_divergent=39
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+| 3M |   0|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+Velocity (predicted):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|DVGR|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=330]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|CHT |   0|  1.395481e-21|  9.562512e-10|  1.395481e-21|  7.188945e-32|  7.099508e-15|     1|   3|0|y|30|  OK  |
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|turb|   0|   0|  4.962133e-21|  2.149456e-09|  1.047060e-28|  8.312998e-32|  7.704378e-15|     1|   6|0|n|30|  OK  |
+|turb|   0|   1|  4.936434e-21|  2.992549e-09|  4.800873e-31|  1.262155e-32|  3.574850e-15|     1|   6|0|n|30|  OK  |
+Filter: K,E,momentum: sd =   0 isolating K from zero=      0 E from zero=    942 E from infinity=    642
+Velocity (corrected):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+slv : Fluid subdom(new) 0
+slv : P static (new)                 : min(      0) = 101325               , max(      0) = 101325               
+slv : Density (new)                  : min(    129) = 997.56173932778      , max(      2) = 997.56173932779      
+slv : Velocity (new)                 : min(      0) = 0                    , max(      0) = 0                    
+slv : Turbulent k (new)              : min(    102) = 1e-40                , max(    177) = 9.3748767731637e-08  
+slv : Turbulent e (new)              : min(    343) = 2.0775468412927e-41  , max(     85) = 1.6363664954369e-07  
+slv : Temperature (new)              : min(      5) = 293.2                , max(    343) = 293.20000000003      
+slv : Total enthalpy, Y-shifted (new): min(   1929) = 8.1565903240889e-08  , max(   2293) = 1.3329212859904e-07  
+slv : MASS FLUXES AT OPENINGS: MF=0, AP=0
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : |          Collector name          | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : | Calculate_inc                    |       0.855|      8|       0.107|       0.141|
+slv : | CollectEMT_Results               |       0.000|      9|       0.000|       0.000|
+slv : | HeatPathCalculator_Dynamic       |       0.016|      1|       0.016|       0.016|
+slv : | LiSy_make_portrait               |       0.021|     53|       0.000|       0.003|
+slv : | ReInitSlidingDependentData       |       0.000|      9|       0.000|       0.000|
+slv : | Results_processing               |       1.184|      8|       0.148|       0.159|
+slv : | build_sl_ordering_CHT            |       0.002|      9|       0.000|       0.001|
+slv : | build_sl_ordering_MDS            |       0.005|      9|       0.001|       0.002|
+slv : | build_sl_ordering_fluid          |       0.005|      9|       0.001|       0.002|
+slv : | calc_Convolutions_MDS            |       0.015|      9|       0.002|       0.002|
+slv : | calc_wall_dist                   |       0.123|      1|       0.123|       0.123|
+slv : | create_Gr_operators_MDS          |       0.022|      9|       0.002|       0.003|
+slv : | create_Gr_operators_portrait_MDS |       0.006|      9|       0.001|       0.001|
+slv : | init_Hy_group_MDS                |       0.008|      9|       0.001|       0.001|
+slv : | perform_stage_total              |       0.913|    276|       0.003|       0.124|
+slv : | precalc_at_start_MDS             |       0.044|      2|       0.022|       0.041|
+slv : | slide_mesh                       |       0.005|      9|       0.001|       0.001|
+slv : | solve_3M_MDS                     |       0.030|      9|       0.003|       0.005|
+slv : | solve_3M_alg_MDS                 |       0.007|      9|       0.001|       0.001|
+slv : | solve_BG_MDS                     |       0.019|      9|       0.002|       0.003|
+slv : | solve_BG_alg_MDS                 |       0.005|      9|       0.001|       0.001|
+slv : | solve_BL_MDS                     |       0.530|      9|       0.059|       0.073|
+slv : | solve_CHT                        |       0.027|      9|       0.003|       0.004|
+slv : | solve_CHT_MDS                    |       0.017|      9|       0.002|       0.002|
+slv : | solve_CHT_alg_MDS                |       0.004|      9|       0.000|       0.001|
+slv : | solve_DvGr_MDS                   |       0.074|      9|       0.008|       0.011|
+slv : | solve_DvGr_alg_MDS               |       0.010|      9|       0.001|       0.001|
+slv : | solve_PS+QJ                      |       0.000|      0|       0.000|       0.000|
+slv : | solve_VolFracImPhase_MDS         |       0.000|      9|       0.000|       0.000|
+slv : | solve_YLMA_MDS                   |       0.000|      9|       0.000|       0.000|
+slv : | solve_YNOx_MDS                   |       0.000|      9|       0.000|       0.000|
+slv : | solve_YTd_MDS                    |       0.000|      9|       0.000|       0.000|
+slv : | solve_YTurb_MDS                  |       0.063|      9|       0.007|       0.008|
+slv : | solve_YTurb_alg_MDS              |       0.011|     18|       0.001|       0.001|
+slv : | update_BC_MDS                    |       0.000|     10|       0.000|       0.000|
+slv : | update_Mf_after_DvGr             |       0.005|      9|       0.001|       0.001|
+slv : | update_VelPressure_MDS           |       0.002|      9|       0.000|       0.000|
+slv : +----------------------------------+------------+-------+------------+------------+
+-----------------------------------------------------------------------
+Memory Working Set Current = 104.65 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 120.77 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+-----------------------------------------------------------------------
+Algebra Pool      : mem_usage = 33.19 Mb, allocated count = 672
+
+================== Tstep=9 ===================
+  MWS[  0]=8.38375e-05
+tau_viscous_averaged = 0.771461 
+Saving fld at the end of time step and wrap gTimeStep!, new gTimeStep =  4.826418e-02 
+dt(mass,momentum; nsd=  0): min dt/dtG(ncv=      0)=1.00 , max dt/dtG(ncv=      0)=1.0    , dtG=0.0482642
+-----------------------------------------------------------------------
+SLIDING MESH: sliding...
+	Subdom ANGLE: nsd(0) angle=0.0000 pi (angle=0.0000000000000000, delta=0.0000 pi)
+SLIDING MESH: making fs-nb connectivity...
+SLIDING MESH: making fs-nb connectivity takes 0.000 s
+SLIDING MESH: sliding takes 0.000 s
+-----------------------------------------------------------------------
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+| BG |   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=352]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
+Flow alg-view 0 in phis-view 0 is Neumann (not Multi Phase treating)
+Flow rate discrepancy at boundary is corrected
+slv : SolveBL stage
+|nsd|Real WF|NormalF|Cycle F|CriticF| EdgeF |CyclBrF|ExtParF|RWFnumSt|StLvlNum|  nfw  |  alp_U_min  |  nfw  |  alp_U_max  |  nfw  |  alp_T_min  |  nfw  |  alp_T_max  |  nfw  |  BL_s_min   |  nfw  |   BL_s_max  |
+|  0|   2054|      0|      0|   2054|      0|      0|      0|    2054|       1|    348|0.000322776  |     98|0.000935517  |   1040|192.612      |     73|558.258      |      0|0            |      0|0            |
+LOG nsd = 0: numb_of_convergent=14, numb_of_divergent=39
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+| 3M |   0|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+Velocity (predicted):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+Flow alg-view 0 is Neumann (not for Phase Change + Nested Iters)
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|DVGR|   0|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|  0.000000e+00|     1|   3|0|y|30|  OK  |
+neumann fix solution. y[row=0][ncv=330]=    0.0000e+00
+Face Momentum (sd=  0): max value of div(mf) (cv=0) = 0.000000e+00
+	norm_L2 of div(momentum) = 0.000000e+00.
++----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|CHT |   0|  7.627499e-22|  8.391710e-10|  7.627499e-22|  4.418524e-39|  2.028321e-18|     1|   3|0|y|30|  OK  |
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name|view| n_y| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
++----+----+----+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|turb|   0|   0|  2.510422e-21|  1.669817e-09|  1.252870e-26|  6.227612e-45|  1.783750e-21|     1|   6|0|n|30|  OK  |
+|turb|   0|   1|  3.353479e-21|  2.386297e-09|  5.197478e-29|  1.370101e-45|  9.664378e-22|     1|   6|0|n|30|  OK  |
+Filter: K,E,momentum: sd =   0 isolating K from zero=      0 E from zero=    942 E from infinity=    642
+Velocity (corrected):
+        (local) sd   0: min(      0)=0                    , max(      0)=0                    
+slv : Fluid subdom(new) 0
+slv : P static (new)                 : min(      0) = 101325               , max(      0) = 101325               
+slv : Density (new)                  : min(    129) = 997.56173932778      , max(      2) = 997.56173932779      
+slv : Velocity (new)                 : min(      0) = 0                    , max(      0) = 0                    
+slv : Turbulent k (new)              : min(    102) = 1e-40                , max(    177) = 9.3748677436047e-08  
+slv : Turbulent e (new)              : min(    343) = 2.0775468412924e-41  , max(     85) = 1.6363519266785e-07  
+slv : Temperature (new)              : min(      5) = 293.2                , max(    343) = 293.20000000003      
+slv : Total enthalpy, Y-shifted (new): min(   1929) = 8.1072021652454e-08  , max(   2293) = 1.3480235113859e-07  
+slv : MASS FLUXES AT OPENINGS: MF=0, AP=0
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : |          Collector name          | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : | Calculate_inc                    |       0.952|      9|       0.106|       0.141|
+slv : | CollectEMT_Results               |       0.000|     10|       0.000|       0.000|
+slv : | HeatPathCalculator_Dynamic       |       0.016|      1|       0.016|       0.016|
+slv : | LiSy_make_portrait               |       0.023|     57|       0.000|       0.003|
+slv : | ReInitSlidingDependentData       |       0.000|     10|       0.000|       0.000|
+slv : | Results_processing               |       1.327|      9|       0.147|       0.159|
+slv : | build_sl_ordering_CHT            |       0.002|     10|       0.000|       0.001|
+slv : | build_sl_ordering_MDS            |       0.005|     10|       0.001|       0.002|
+slv : | build_sl_ordering_fluid          |       0.005|     10|       0.001|       0.002|
+slv : | calc_Convolutions_MDS            |       0.016|     10|       0.002|       0.002|
+slv : | calc_wall_dist                   |       0.123|      1|       0.123|       0.123|
+slv : | create_Gr_operators_MDS          |       0.024|     10|       0.002|       0.003|
+slv : | create_Gr_operators_portrait_MDS |       0.007|     10|       0.001|       0.001|
+slv : | init_Hy_group_MDS                |       0.009|     10|       0.001|       0.001|
+slv : | perform_stage_total              |       0.996|    306|       0.003|       0.124|
+slv : | precalc_at_start_MDS             |       0.044|      2|       0.022|       0.041|
+slv : | slide_mesh                       |       0.006|     10|       0.001|       0.001|
+slv : | solve_3M_MDS                     |       0.033|     10|       0.003|       0.005|
+slv : | solve_3M_alg_MDS                 |       0.008|     10|       0.001|       0.001|
+slv : | solve_BG_MDS                     |       0.021|     10|       0.002|       0.003|
+slv : | solve_BG_alg_MDS                 |       0.006|     10|       0.001|       0.001|
+slv : | solve_BL_MDS                     |       0.588|     10|       0.059|       0.073|
+slv : | solve_CHT                        |       0.030|     10|       0.003|       0.004|
+slv : | solve_CHT_MDS                    |       0.019|     10|       0.002|       0.002|
+slv : | solve_CHT_alg_MDS                |       0.005|     10|       0.000|       0.001|
+slv : | solve_DvGr_MDS                   |       0.081|     10|       0.008|       0.011|
+slv : | solve_DvGr_alg_MDS               |       0.011|     10|       0.001|       0.001|
+slv : | solve_PS+QJ                      |       0.000|      0|       0.000|       0.000|
+slv : | solve_VolFracImPhase_MDS         |       0.000|     10|       0.000|       0.000|
+slv : | solve_YLMA_MDS                   |       0.000|     10|       0.000|       0.000|
+slv : | solve_YNOx_MDS                   |       0.000|     10|       0.000|       0.000|
+slv : | solve_YTd_MDS                    |       0.000|     10|       0.000|       0.000|
+slv : | solve_YTurb_MDS                  |       0.070|     10|       0.007|       0.008|
+slv : | solve_YTurb_alg_MDS              |       0.012|     20|       0.001|       0.001|
+slv : | update_BC_MDS                    |       0.000|     11|       0.000|       0.000|
+slv : | update_Mf_after_DvGr             |       0.006|     10|       0.001|       0.001|
+slv : | update_VelPressure_MDS           |       0.003|     10|       0.000|       0.000|
+slv : +----------------------------------+------------+-------+------------+------------+
+Interpolator cache: total calls 22045, optimised calls 11272 (51.1 %)
+-----------------------------------------------------------------------
+Memory Working Set Current = 104.67 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 120.77 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+-----------------------------------------------------------------------
+/************Goal values******************/
+/************End of Goal values******************/
+/************	Min/Max Parameters	************/
+Density (Fluid):		min = 997.561739 kg/m^3		max = 997.561739 kg/m^3
+Pressure:		min = 101325 Pa		max = 101325 Pa
+Temperature (Fluid):		min = 293.2 K		max = 293.2 K
+Velocity:		min = 0 m/s		max = 0 m/s
+Velocity (X):		min = 0 m/s		max = 0 m/s
+Velocity (Y):		min = 0 m/s		max = 0 m/s
+Velocity (Z):		min = 0 m/s		max = 0 m/s
+/************	End of Min/Max Parameters	************/
+Solver finished at	1.10.2023	21:39:10
+ENDING PROGRAM...
+Estimated fld size=3.97 Mb
+Writing fld file "X:\Water pump project\Epic Gamer Pump\SolidWorks native\4\fldA02C.tmp"...
+**************   CHeatPathCalculator report ******************
+Temperatures
+	0 (Vol 0.000262125; Tmin 293.2; Tav 293.2; Tmax 293.2)
+Total Energy Balance [W]
+	0
+**************   CHeatPathCalculator report end******************
+store res: FILE RENAMED: "X:\Water pump project\Epic Gamer Pump\SolidWorks native\4\fldA02C.tmp" -> "X:\Water pump project\Epic Gamer Pump\SolidWorks native\4\4.fld"
+store res: FILE SAVED: 4.fld. Total save fld took 0.73 sec.
+real fld size=1.45 Mb
+CPT size=1.985 MB (2081670 bytes).
+OK
+Depository creating ...
+nb_bricks (0.000 s)
+Face_aver_on (0.000 s)
+size of cv_intrp_f = 0.27 Mb
+size of cv_intrp_s = 0.00 Mb
+size of cv_intrp_frw = 0.00 Mb
+CCVInterp_DepEntry::Calculate duration = 0.038 s
+FS triangles count 199417 
+cv_interp (0.241 s)
+favorite_params (1.908 s)
+Face_aver_off (0.000 s)
+wall_triangles (11.992 s)
+Depository creating ...OK (11.992 s)
+GetFloMASTERData succeeded in (0.002 s)
+Solver finished at	1.10.2023	21:39:24
+Total CPU time 19 s
+Free memory:
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : |          Collector name          | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------------------------+------------+-------+------------+------------+
+slv : | Calculate_inc                    |       1.051|     10|       0.105|       0.141|
+slv : | CollectEMT_Results               |       0.000|     11|       0.000|       0.000|
+slv : | HeatPathCalculator_Dynamic       |       0.031|      2|       0.016|       0.016|
+slv : | LiSy_make_portrait               |       0.023|     57|       0.000|       0.003|
+slv : | ReInitSlidingDependentData       |       0.000|     10|       0.000|       0.000|
+slv : | Results_processing               |       1.491|     10|       0.149|       0.164|
+slv : | build_sl_ordering_CHT            |       0.002|     10|       0.000|       0.001|
+slv : | build_sl_ordering_MDS            |       0.005|     10|       0.001|       0.002|
+slv : | build_sl_ordering_fluid          |       0.005|     10|       0.001|       0.002|
+slv : | calc_Convolutions_MDS            |       0.016|     10|       0.002|       0.002|
+slv : | calc_wall_dist                   |       0.123|      1|       0.123|       0.123|
+slv : | create_Gr_operators_MDS          |       0.024|     10|       0.002|       0.003|
+slv : | create_Gr_operators_portrait_MDS |       0.007|     10|       0.001|       0.001|
+slv : | init_Hy_group_MDS                |       0.009|     10|       0.001|       0.001|
+slv : | perform_stage_total              |       0.996|    306|       0.003|       0.124|
+slv : | precalc_at_start_MDS             |       0.044|      2|       0.022|       0.041|
+slv : | slide_mesh                       |       0.006|     10|       0.001|       0.001|
+slv : | solve_3M_MDS                     |       0.033|     10|       0.003|       0.005|
+slv : | solve_3M_alg_MDS                 |       0.008|     10|       0.001|       0.001|
+slv : | solve_BG_MDS                     |       0.021|     10|       0.002|       0.003|
+slv : | solve_BG_alg_MDS                 |       0.006|     10|       0.001|       0.001|
+slv : | solve_BL_MDS                     |       0.588|     10|       0.059|       0.073|
+slv : | solve_CHT                        |       0.030|     10|       0.003|       0.004|
+slv : | solve_CHT_MDS                    |       0.019|     10|       0.002|       0.002|
+slv : | solve_CHT_alg_MDS                |       0.005|     10|       0.000|       0.001|
+slv : | solve_DvGr_MDS                   |       0.081|     10|       0.008|       0.011|
+slv : | solve_DvGr_alg_MDS               |       0.011|     10|       0.001|       0.001|
+slv : | solve_PS+QJ                      |       0.000|      0|       0.000|       0.000|
+slv : | solve_VolFracImPhase_MDS         |       0.000|     10|       0.000|       0.000|
+slv : | solve_YLMA_MDS                   |       0.000|     10|       0.000|       0.000|
+slv : | solve_YNOx_MDS                   |       0.000|     10|       0.000|       0.000|
+slv : | solve_YTd_MDS                    |       0.000|     10|       0.000|       0.000|
+slv : | solve_YTurb_MDS                  |       0.070|     10|       0.007|       0.008|
+slv : | solve_YTurb_alg_MDS              |       0.012|     20|       0.001|       0.001|
+slv : | update_BC_MDS                    |       0.000|     11|       0.000|       0.000|
+slv : | update_Mf_after_DvGr             |       0.006|     10|       0.001|       0.001|
+slv : | update_VelPressure_MDS           |       0.003|     10|       0.000|       0.000|
+slv : +----------------------------------+------------+-------+------------+------------+
+alg : 
+alg :  size = 3098
+alg :  build_fine_select_omega       0.001  10
+alg :  build_select_pivot_nonzeros   0.000  10
+alg :  build_select_vectors          0.000  10
+alg :  calc_residual_LU              0.001  20
+alg :  call_MG_solver                0.003  10
+alg :  clean_fine_level              0.000  10
+alg :  init_RB_fine_nonzeros         0.000  10
+alg :  init_fine_EMT_solver          0.000  10
+alg :  init_fine_level               0.001  10
+alg :  mg_cycle                      0.002  10
+alg :  prepare_MG                    0.001  10
+alg :  run_smoothing                 0.002  10
+alg :  smoother_fine                 0.001  30
+alg :  solve_MG                      0.003  10
+alg :  update_mg_status              0.000  10
+alg : 
+alg :  size = 3098
+alg :  build_fine_select_omega       0.000  10
+alg :  build_select_pivot_nonzeros   0.001  10
+alg :  build_select_vectors          0.000  10
+alg :  calc_residual_LU              0.002  20
+alg :  call_MG_solver                0.007  10
+alg :  clean_fine_level              0.000  10
+alg :  init_RB_fine_nonzeros         0.000  10
+alg :  init_fine_EMT_solver          0.000  10
+alg :  init_fine_level               0.002  10
+alg :  mg_cycle                      0.006  10
+alg :  prepare_MG                    0.002  10
+alg :  run_smoothing                 0.006  10
+alg :  smoother_fine                 0.005  30
+alg :  solve_MG                      0.007  10
+alg :  update_mg_status              0.000  10
+alg : 
+alg :  size = 3098
+alg :  assembling_nnz_PardisoCholesky        0.000  1
+alg :  assembling_portrait_PardisoCholesky   0.000  1
+alg :  build_coarse_select_omega             0.000  1
+alg :  build_fine_select_omega               0.000  11
+alg :  build_select_pivot_nonzeros           0.001  11
+alg :  build_select_vectors                  0.000  11
+alg :  calc_residual_LU                      0.002  39
+alg :  call_MG_solver                        0.124  11
+alg :  clean_coarse_levels                   0.000  1
+alg :  clean_fine_level                      0.000  11
+alg :  init_RB_coarse_nonzeros               0.000  1
+alg :  init_RB_fine_nonzeros                 0.000  11
+alg :  init_coarse_EMT_solver                0.000  1
+alg :  init_coarse_levels                    0.115  1
+alg :  init_fine_EMT_solver                  0.000  11
+alg :  init_fine_level                       0.002  11
+alg :  mg_cycle                              0.122  12
+alg :  numerical_PardisoCholesky             0.001  1
+alg :  perform_prolongation                  0.000  16
+alg :  perform_restriction                   0.000  16
+alg :  prepare_MG                            0.002  11
+alg :  run_smoothing                         0.006  28
+alg :  smoother_fine                         0.004  102
+alg :  solve_MG                              0.124  11
+alg :  solve_PardisoCholesky                 0.001  16
+alg :  symbolic_PardisoCholesky              0.113  1
+alg :  update_mg_status                      0.000  44
+alg : 
+alg :  size = 3098
+alg :  build_fine_select_omega       0.001  20
+alg :  build_select_pivot_nonzeros   0.001  20
+alg :  build_select_vectors          0.000  20
+alg :  calc_residual_LU              0.002  40
+alg :  call_MG_solver                0.008  20
+alg :  clean_fine_level              0.000  20
+alg :  init_RB_fine_nonzeros         0.000  20
+alg :  init_fine_EMT_solver          0.000  20
+alg :  init_fine_level               0.003  20
+alg :  mg_cycle                      0.006  20
+alg :  prepare_MG                    0.003  20
+alg :  run_smoothing                 0.006  20
+alg :  smoother_fine                 0.005  99
+alg :  solve_MG                      0.008  20
+alg :  update_mg_status              0.000  20
+alg : 
+alg :  size = 3098
+alg :  build_fine_select_omega       0.001  10
+alg :  build_select_pivot_nonzeros   0.001  10
+alg :  build_select_vectors          0.000  10
+alg :  calc_residual_LU              0.001  20
+alg :  call_MG_solver                0.004  10
+alg :  clean_fine_level              0.000  10
+alg :  init_RB_fine_nonzeros         0.000  10
+alg :  init_fine_EMT_solver          0.000  10
+alg :  init_fine_level               0.003  10
+alg :  mg_cycle                      0.003  10
+alg :  prepare_MG                    0.003  10
+alg :  run_smoothing                 0.003  10
+alg :  smoother_fine                 0.002  30
+alg :  solve_MG                      0.004  10
+alg :  update_mg_status              0.000  10
+-----------------------------------------------------------------------
+Start to free mesher data...
+MMP (msh): locals=1, allc_sz=6.49 MB, used_sz=6.45 MB, blks-min-max=25/25
+MMP (brx): locals=0, allc_sz=0.00 MB, used_sz=0.00 MB, blks-min-max=0/0
+MMP (bcf): locals=4, allc_sz=22.42 MB, used_sz=21.77 MB, blks-min-max=18/28
+MMP (xsl): locals=0, allc_sz=0.00 MB, used_sz=0.00 MB, blks-min-max=0/0
+Free xsl...            OK	Time=0.034 s
+Free ray collector...  OK	Time=0.000 s
+Free ray intersector...OK	Time=0.000 s
+Free body sets...      OK	Time=0.000 s
+Free Geometry DB takes 0.000 s
+Free mesh conn...      OK	Time=0.000 s
+Free geomsd...         OK	Time=0.000 s
+Free mbricks...        OK	Time=0.001 s
+Free hash info...      OK	Time=0.000 s
+Free bricks-x...       OK	Time=0.000 s
+Free bcf...            OK	Time=0.003 s
+Free mesh h...         OK	Time=0.000 s
+Free bricks arr..      OK	Time=0.000 s
+Free bricks tree...    OK	Time=0.000 s
+Free mesh pools...     OK	Time=0.008 s
+Free bodies mapper...  OK	Time=0.000 s
+Free geom crits...     OK	Time=0.000 s
+Free cpt regions...    OK	Time=0.000 s
+Free peculiar surfs... OK	Time=0.000 s
+Free sw-geometries...  OK	Time=0.000 s
+Total free mesher data time: 0.049 s
+-----------------------------------------------------------------------
+Free memory: OK (0.130 s)
+-----------------------------------------------------------------------
+Memory Working Set Current = 64.44 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 69.84 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+Process Threads Number Peak: 11
+-----------------------------------------------------------------------
+Free memory:
+-----------------------------------------------------------------------
+Start to free mesher data...
+MMP (msh): locals=0, allc_sz=0.00 MB, used_sz=0.00 MB, blks-min-max=0/0
+MMP (brx): locals=0, allc_sz=0.00 MB, used_sz=0.00 MB, blks-min-max=0/0
+MMP (bcf): locals=0, allc_sz=0.00 MB, used_sz=0.00 MB, blks-min-max=0/0
+MMP (xsl): locals=0, allc_sz=0.00 MB, used_sz=0.00 MB, blks-min-max=0/0
+Free xsl...            OK	Time=0.000 s
+Free ray collector...  OK	Time=0.000 s
+Free ray intersector...OK	Time=0.000 s
+Free body sets...      OK	Time=0.000 s
+Free Geometry DB takes 0.000 s
+Free mesh conn...      OK	Time=0.000 s
+Free geomsd...         OK	Time=0.000 s
+Free mbricks...        OK	Time=0.000 s
+Free hash info...      OK	Time=0.000 s
+Free bricks-x...       OK	Time=0.000 s
+Free mesh h...         OK	Time=0.000 s
+Free bricks arr..      OK	Time=0.000 s
+Free bricks tree...    OK	Time=0.000 s
+Free mesh pools...     OK	Time=0.000 s
+Free bodies mapper...  OK	Time=0.000 s
+Free geom crits...     OK	Time=0.000 s
+Free cpt regions...    OK	Time=0.000 s
+Free peculiar surfs... OK	Time=0.000 s
+Free sw-geometries...  OK	Time=0.000 s
+Total free mesher data time: 0.003 s
+-----------------------------------------------------------------------
+Free memory: OK (0.029 s)
+-----------------------------------------------------------------------
+Memory Working Set Current = 64.44 Mb, Memory Working Set Peak = 372.03 Mb
+Memory Private Bytes Current = 70.10 Mb, Memory Private Bytes Peak = 381.43 Mb
+Process Threads Number: 11
+Process Threads Number Peak: 11
+-----------------------------------------------------------------------
+Algebra Pool      : mem_usage = 35.31 Mb, allocated count = 0
+finished solver summary thread
+Log ended at 01.10.2023	21:39:24
