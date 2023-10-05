@@ -1,0 +1,7 @@
+2023-Oct-04 14:57:07
+Computer name:	lab5-26
+Number of cores used in calculation:	8
+Configuration name:	Default
+Project name:	Project(1)
+
+Warnings on last iteration: 

@@ -1,0 +1,154 @@
+Log started at 04.10.2023	15:26:18
+viewer project directory: "\\?\C:\WINDOWS\TEMP\4e43599b-a072-4cc6-b09f-72f6139338cd\Parametric Study 1\18"
+Windows 10 (Version 10.0.19045)
+GenuineIntel, Stepping ID = 9, Model = 14, Family = 6, Extended model = 9, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 8, Processor type: 8664, Active processor mask: 255, Page size: 4096 bites
+Package 0 [ ProcessorGroup 0 [ 0 1 2 3 4 5 6 7 ] ]
+NUMA Node 0: Available Memory = 19.39 Gb. ProcessorGroup 0 [ 0 1 2 3 4 5 6 7 ]
+std::thread::hardware_concurrency = 8
+No NUMA support
+OpenMP enabled (spec=200203). max_threads = 8, num_procs = 8.
+Loading fld "\\?\C:\WINDOWS\TEMP\4e43599b-a072-4cc6-b09f-72f6139338cd\Parametric Study 1\18\start0.fld"
+Memory status before mesh load:
+-----------------------------------------------------------------------
+Memory Working Set Current = 27.16 Mb, Memory Working Set Peak = 27.16 Mb
+Memory Private Bytes Current = 24.77 Mb, Memory Private Bytes Peak = 27.96 Mb
+Process Threads Number: 18
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+Memory Working Set Current = 41.92 Mb, Memory Working Set Peak = 43.86 Mb
+Memory Private Bytes Current = 36.16 Mb, Memory Private Bytes Peak = 38.52 Mb
+Process Threads Number: 18
+-----------------------------------------------------------------------
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays):
+MESH (0):
+	Fluid Subdom Constructor: 3 subdom(s).
+	Solid Subdom Constructor: 14 subdom(s).
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 Fluid av=9807 cv=9333 fa=27075 fb=0 fw=10555 V=1.800308e-02
+	Cache data...OK
+	GEOMSUBDOM (1): gi=1 Fluid av=439 cv=356 fa=879 fb=0 fw=1098 V=1.277093e-04
+	Cache data...OK
+	GEOMSUBDOM (2): gi=1 Fluid av=675 cv=554 fa=1366 fb=0 fw=1642 V=1.907596e-04
+	Cache data...OK
+	GEOMSUBDOM (3): gi=3 Solid av=3785 cv=3785 fa=8713 fb=0 fw=7661 V=1.021168e-03
+	Cache data...OK
+	GEOMSUBDOM (4): gi=2 Solid av=1748 cv=1748 fa=5210 fb=0 fw=3932 V=4.411882e-04
+	Cache data...OK
+	GEOMSUBDOM (5): gi=3 Solid av=4 cv=4 fa=4 fb=0 fw=8 V=5.476916e-12
+	Cache data...OK
+	GEOMSUBDOM (6): gi=3 Solid av=4 cv=4 fa=4 fb=0 fw=10 V=8.188428e-11
+	Cache data...OK
+	GEOMSUBDOM (7): gi=3 Solid av=4 cv=4 fa=4 fb=0 fw=14 V=1.830995e-11
+	Cache data...OK
+	GEOMSUBDOM (8): gi=3 Solid av=4 cv=4 fa=4 fb=0 fw=26 V=9.265809e-11
+	Cache data...OK
+	GEOMSUBDOM (9): gi=3 Solid av=4 cv=4 fa=4 fb=0 fw=20 V=3.296733e-10
+	Cache data...OK
+	GEOMSUBDOM (10): gi=3 Solid av=4 cv=4 fa=4 fb=0 fw=20 V=6.649965e-11
+	Cache data...OK
+	GEOMSUBDOM (11): gi=3 Solid av=6 cv=6 fa=7 fb=0 fw=14 V=1.076252e-10
+	Cache data...OK
+	GEOMSUBDOM (12): gi=3 Solid av=4 cv=4 fa=4 fb=0 fw=20 V=5.447265e-11
+	Cache data...OK
+	GEOMSUBDOM (13): gi=3 Solid av=4 cv=4 fa=4 fb=0 fw=10 V=7.729995e-12
+	Cache data...OK
+	GEOMSUBDOM (14): gi=3 Solid av=4 cv=4 fa=4 fb=0 fw=8 V=5.593403e-12
+	Cache data...OK
+	GEOMSUBDOM (15): gi=3 Solid av=4 cv=4 fa=4 fb=0 fw=8 V=9.242558e-12
+	Cache data...OK
+	GEOMSUBDOM (16): gi=3 Solid av=4 cv=4 fa=4 fb=0 fw=8 V=8.771901e-12
+	Cache data...OK
+	Setting nb of w-faces...OK (0.005 s).
+	Correcting nb of w-faces...
+		geomsd (1): removed nb-nfw by brick-long-chain: 122.
+		geomsd (1): time=0.000 s
+		geomsd (2): removed nb-nfw by brick-long-chain: 193.
+		geomsd (2): time=0.000 s
+		geomsd (4): removed nb-nfw by brick-long-chain: 56.
+		geomsd (4): time=0.001 s
+	Time(correct_fw_nb)=0.005 s
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=3.0058467103050814 fb_s=0.0000000000000000 fw_s=1.1937676137530837 fw_nb=85418
+	              :d_const(3031)=1.45737e-11 d_linear(3031)=3.2816e-11
+	GEOMSUBDOM (1):fa_s=0.0361011816124805 fb_s=0.0000000000000000 fw_s=0.0441178276016947 fw_nb=9386
+	              :d_const(237)=9.28947e-13 d_linear(106)=7.35242e-13
+	GEOMSUBDOM (2):fa_s=0.0544541676675986 fb_s=0.0000000000000000 fw_s=0.0665174694017438 fw_nb=13794
+	              :d_const(68)=4.83153e-12 d_linear(68)=2.76619e-11
+	GEOMSUBDOM (3):fa_s=0.3118343232446785 fb_s=0.0000000000000000 fw_s=0.5306819153066549 fw_nb=63576
+	              :d_const(804)=1.34962e-11 d_linear(2448)=4.16925e-11
+	GEOMSUBDOM (4):fa_s=0.1843611121105266 fb_s=0.0000000000000000 fw_s=0.1993018742983405 fw_nb=34962
+	              :d_const(1743)=1.96123e-11 d_linear(1614)=1.82942e-11
+	GEOMSUBDOM (5):fa_s=0.0000000126387048 fb_s=0.0000000000000000 fw_s=0.0000259629947212 fw_nb=28
+	              :d_const(3)=1.48115e-16 d_linear(1)=2.6231e-11
+	GEOMSUBDOM (6):fa_s=0.0000000471145872 fb_s=0.0000000000000000 fw_s=0.0000601548261826 fw_nb=42
+	              :d_const(0)=9.96216e-17 d_linear(0)=1.70787e-11
+	GEOMSUBDOM (7):fa_s=0.0000000370265216 fb_s=0.0000000000000000 fw_s=0.0000052554652333 fw_nb=60
+	              :d_const(2)=1.93278e-16 d_linear(2)=3.61219e-12
+	GEOMSUBDOM (8):fa_s=0.0000003675743875 fb_s=0.0000000000000000 fw_s=0.0000273650145489 fw_nb=134
+	              :d_const(0)=2.51522e-15 d_linear(3)=5.33311e-13
+	GEOMSUBDOM (9):fa_s=0.0000004330900553 fb_s=0.0000000000000000 fw_s=0.0000703020263903 fw_nb=96
+	              :d_const(1)=3.78306e-16 d_linear(1)=4.30212e-13
+	GEOMSUBDOM (10):fa_s=0.0000001420303409 fb_s=0.0000000000000000 fw_s=0.0000211294630709 fw_nb=96
+	              :d_const(0)=1.36609e-16 d_linear(3)=9.41728e-13
+	GEOMSUBDOM (11):fa_s=0.0000000839550583 fb_s=0.0000000000000000 fw_s=0.0000794715111000 fw_nb=62
+	              :d_const(0)=1.25532e-16 d_linear(4)=1.27236e-11
+	GEOMSUBDOM (12):fa_s=0.0000000752847735 fb_s=0.0000000000000000 fw_s=0.0000223365299237 fw_nb=96
+	              :d_const(1)=1.40749e-16 d_linear(2)=8.51781e-13
+	GEOMSUBDOM (13):fa_s=0.0000000103224959 fb_s=0.0000000000000000 fw_s=0.0000288188723851 fw_nb=38
+	              :d_const(3)=1.25735e-16 d_linear(1)=1.84147e-11
+	GEOMSUBDOM (14):fa_s=0.0000000098554514 fb_s=0.0000000000000000 fw_s=0.0000306414166031 fw_nb=28
+	              :d_const(2)=1.72601e-16 d_linear(0)=3.47255e-11
+	GEOMSUBDOM (15):fa_s=0.0000000130947669 fb_s=0.0000000000000000 fw_s=0.0000349078013441 fw_nb=28
+	              :d_const(0)=9.69211e-17 d_linear(2)=4.88783e-11
+	GEOMSUBDOM (16):fa_s=0.0000000131469569 fb_s=0.0000000000000000 fw_s=0.0000352536695151 fw_nb=28
+	              :d_const(1)=1.04686e-16 d_linear(3)=2.97286e-11
+MESH (0) checking: OK.
+Time (MDS): 	0.034 s
+----------------------------------------------------------
+-----------------------------------------------------------------------
+Memory Working Set Current = 48.96 Mb, Memory Working Set Peak = 48.96 Mb
+Memory Private Bytes Current = 43.11 Mb, Memory Private Bytes Peak = 43.12 Mb
+Process Threads Number: 18
+-----------------------------------------------------------------------
+Memory status after mesh load:
+-----------------------------------------------------------------------
+Memory Working Set Current = 49.13 Mb, Memory Working Set Peak = 49.13 Mb
+Memory Private Bytes Current = 43.24 Mb, Memory Private Bytes Peak = 43.24 Mb
+Process Threads Number: 18
+-----------------------------------------------------------------------
+Read cpt took 0.10 sec.
+reading static calculation settings from cfld with cfld_uuid {8b96d980-7101-4f23-92d5-e299d481a449}
+EXTERNAL=1   LAMTURB=1   CHT=0
+IT=6   NT=2   NZ=1
+U_DIM_EXT_MAX=8   US_DIM=0
+WARNING! 56 w-face(s) without RefFacesData.
+
+===ThermodynamicsHolder:===
+Subdom 0 Incompressible liquid thermodynamics
+	substance 0 type=fwLiquid, guid=6D4EB34F944911D4B47100A024552746, name=Water
+Subdom 1 Incompressible liquid thermodynamics
+	substance 0 type=fwLiquid, guid=6D4EB34F944911D4B47100A024552746, name=Water
+Subdom 2 Incompressible liquid thermodynamics
+	substance 0 type=fwLiquid, guid=6D4EB34F944911D4B47100A024552746, name=Water
+===ThermodynamicsHolder:===
+MESH::Bricks: Total=8377
+CD X0= -0.234999709145, X1= 0.149297331486, Y0= -0.0404257083819, Y1= 0.0674504515126, Z0= -0.280055903806, Z1= 0.197165089792
+Read cfld took 0.02 sec.
+Init simple interpolator... OK (0.063 sec)
+size of cv_intrp_f = 0.97 Mb
+size of cv_intrp_s = 0.09 Mb
+size of cv_intrp_fw = 1.18 Mb
+size of cv_intrp_sw = 0.38 Mb
+size of cv_intrp_frw = 0.96 Mb
+CCVInterp_DepEntry::Calculate duration = 0.108 s
+Read fld took 0.28 sec.
+136 parameter(s) in list of scalar parameters
+7 parameter(s) in list of vector parameters
+Free bcf...            OK	Time=0.001 s
+releasing global objects
+Log ended at 04.10.2023	15:26:20

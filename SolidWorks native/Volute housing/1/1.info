@@ -1,0 +1,54 @@
+Model: Main Assembly.SLDASM
+Project name: Project(1)
+Config name: Default
+Project path: X:\Water pump project\Epic Gamer Pump\SolidWorks native\Volute housing\1\1.xmlconfig
+Status: Calculating
+
+Number of cells:
+    Total cells: 10921
+    Fluid cells: 10921
+    Solid cells: 5583
+    Fluid cells containing solids: 7129
+
+
+Geometry preparation finished: 
+Geometry preparation time: 00:00:00
+Solver CPU time: 00:01:46
+Iterations: 93
+Travels: 0.91583
+Physical time: 1.000000e+00 s
+Current time step: 1.224332e-02 s
+Last iteration finished: 
+CPU time per last iteration: 00:00:00
+CPU time left: 00:00:00
+Iterations per 1 travel: 101
+
+Goals
+    Name                  | Unit (SI)       | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    SG Torque (Y) 1       | momentum        |            0.29 |       0.0 |            0.00 |            0.07 | On
+    SG Volume Flow Rate 2 | volumetric flow |            0.00 |       0.0 |            0.00 |            0.00 | On
+
+Project details
+    Default fluids: 
+    Analysis type: External
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: On
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2023  x64 / 6002 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2023 SP3.0
+    Computer name: lab5-26
+    User name: u1467634
+    Operating system: Windows 10 (Version 10.0.19045)
+    Processors: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+    Number of cores: 8
+    Memory: 19634 MB / 32641 MB
+

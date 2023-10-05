@@ -1,0 +1,9 @@
+2023-Oct-04 16:07:12
+Computer name:	lab5-26
+Number of cores used in calculation:	8
+Configuration name:	Default
+Project name:	Project(1)
+
+Warnings on last iteration: 
+1. Negative pressure :
+	Minimum pressure=-516223 Pa; dV/V=5.08789

@@ -1,0 +1,29 @@
+﻿absolute path:X:\Water pump project\Epic Gamer Pump\SolidWorks native\Volute housing\1\Parametric Study 1\19
+init:1
+run_capture:0
+run_solver:1
+new_calc:1
+close_monitor:1
+run_convert:0
+isOK:1
+ForceNewCalc:0
+run_capture_prestate:0
+StartFldName:X:\Water pump project\Epic Gamer Pump\SolidWorks native\Volute housing\1\Parametric Study 1\19\19.fld
+NewCalcStartCptName:
+TransTimeMoments:2:1.
+TransFldNames:101:X:\Water pump project\Epic Gamer Pump\SolidWorks native\Volute housing\1\Parametric Study 1\19\19.fld
+CurSelTranFld:0
+Trans:1
+UsePrevRes:1
+ForcetoRunCPT:0
+ComputerName:LAB5-26
+port:30950
+ProcessResults:1
+LoadLastResult:0
+ProcessorsToUse:8
+LoadBaseFLDFile:0
+BaseFLDFile:
+id:{EFBD106A-1FB7-4950-B25E-78A36FC8F994}
+calculation_state:9
+ForceContinue:0
+SolverProcessId:0

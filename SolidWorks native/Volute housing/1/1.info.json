@@ -1,0 +1,76 @@
+{
+    "version": 0,
+    "model_name": "Main Assembly.SLDASM",
+    "project_name": "Project(1)",
+    "config_name": "Default",
+    "project_path": "X:\\Water pump project\\Epic Gamer Pump\\SolidWorks native\\Volute housing\\1\\1.xmlconfig",
+    "finished": false,
+    "mesh": {
+        "cells_total": 10921,
+        "cells_fluid": 10921,
+        "cells_solid": 5583,
+        "cells_fluid_containing_solid": 7129
+    },
+    "telemetry": {
+        "prepare_geometry_finished": null,
+        "prepare_geometry_total_time": 0,
+        "cpu_time_solver_total": 106,
+        "iteration": 93,
+        "travel": 0.9158340236137582,
+        "phys_time": 1.0,
+        "time_step": 0.012243317871898918,
+        "last_iteration_finished": null,
+        "cpu_time_per_last_iter": 0,
+        "cpu_time_left": -1,
+        "iterations_per_travel": 101
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "SG Torque (Y) 1",
+                "unit": "momentum",
+                "value": 0.2893637906388015,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 0.06779500948922462,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Volume Flow Rate 2",
+                "unit": "volumetric flow",
+                "value": 0.0,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 0.0,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": true,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2023  x64 / 6002 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2023 SP3.0",
+        "computer_name": "lab5-26",
+        "user_name": "u1467634",
+        "os": "Windows 10 (Version 10.0.19045)",
+        "cpu": "Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz",
+        "number_of_cores": 8,
+        "memory_avail": 19634,
+        "memory_total": 32641
+    }
+}
